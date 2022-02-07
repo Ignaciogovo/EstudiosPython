@@ -1,7 +1,7 @@
 # 3 Listas
     # Las listas son muy parecidas a los arreglos.
     # Como crear una lista:
-lista = [1,2,3]
+lista = [1,2,3,2,2,2,2]
 
     # Recorrer lista
 for x in lista:
@@ -14,13 +14,19 @@ print (lista[0:3]) # --> Indica los tres primeros elementos
     # Incluir datos en la lista
 lista.append("prueba1") # --> añade un valor al final
 lista.insert(2,"prueba2") # --> añade un valor en el key asignado.
-lista.extend(["valor1",2,"valor3"])
-indice = lista.index("Valor1") # --> indica cual es la key del valor pedido. (Con esto indica el primer valor)
+lista.extend(["valor1",2,"valor3"]) # --> añade una lista al final de otra
+indice = lista.index("valor1") # --> indica cual es la key del valor pedido. (Con esto indica el primer valor)
 print ("prueba2" in lista) # Devuelve true si prueba2 se encuentra en la lista
 
     # Eliminar elementos
 lista.remove("prueba2") # --> Elimina un valor de la lista.
 lista.pop() # --> Elimina el ultimo elemento de la lista.
+
+    # count: --> indica cuantos elementos se encuentran en una lista.
+    # Vamos a contar cuantas veces se encuentra el elemento 2 en la lista.
+print("Numero de veces: ")
+print(lista.count(2))
+print(len(lista)) # Indica la cantidad de valores que tiene una lista.
 
 
     # Sumar listas
