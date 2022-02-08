@@ -17,7 +17,7 @@ numero = 19
     # floats:
 decimal = 7.0
 decimal2= float(7)
-str(8) # --> Para convertir una cadena de texto en un integer.
+int(8) # --> Para convertir una cadena de texto en integer
 
 # 2 Cadenas:
 nombre_variable = "valor variable"
