@@ -6,3 +6,8 @@ https://www.learnpython.org/es/
 http://pythonentresdias.blogspot.com
 https://www.tutorialesprogramacionya.com/pythonya/index.php?inicio=0
 https://tutorialpython.com
+
+
+
+
+aprender librerias Beatifulsoup y pandas.
