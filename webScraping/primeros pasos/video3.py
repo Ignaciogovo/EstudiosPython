@@ -1,14 +1,14 @@
 #https://www.youtube.com/watch?v=CHiwaFEUB1Y
-from importlib.resources import path
-from lib2to3.pgen2 import driver
-from operator import index
 from selenium import webdriver
 import pandas as pd
 from selenium.webdriver.support.ui import Select # Permite seleccionar valores dentro de una lista desplegable.
+from selenium.webdriver.chrome.options import Options #Permite opciones a la hora de hacer la ejecucion.
 import time
 website = 'https://www.adamchoi.co.uk/teamgoals/detailed'
 path = 'C:\driversChrome\chromedriver.exe'
-driver = webdriver.Chrome(path)
+opciones = Options()
+opciones.add_argument("--headless") # Permite hacer el script en segundo plano.
+driver = webdriver.Chrome(chrome_options=opciones, executable_path=path)
 driver.get(website)
 time.sleep(3)
 #Aceptar cookies 
@@ -24,7 +24,7 @@ lista = Select(driver.find_element_by_id('country')) # seleccionamos la lista de
 lista.select_by_visible_text('Spain') #Escogemos el valor visible
 # lista despegable si no hubiera id
 # caja = driver.find_element_by_class_name('panel-body')
-# lista = Select(driver.find_element_by_id('country')) # seleccionamos la lista desplegable
+# lista = Select(caja.find_element_by_id('country')) # seleccionamos la lista desplegable
 
 time.sleep(3)
 #Coger datos de la pagina.

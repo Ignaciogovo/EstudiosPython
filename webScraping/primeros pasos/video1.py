@@ -24,6 +24,7 @@ for i in eq:
 
 #Obtenemos los puntos
 pt = soup.find_all('td',class_="destacado") #Obtenemos todos los valores de de la etiqueta span y clase nombre-equipo.
+print(pt)
 puntos = list()
 count = 0
 for i in pt:    
@@ -55,9 +56,9 @@ for i in range(0,20):
 
 
 
-# ponemos el link de la pagina:
-website = 'https://resultados.as.com/resultados/futbol/primera/clasificacion/'
-result=requests.get(website) # Obtenemos la la pagina
-content=result.text #Al resultado cogemos la parte tipo text.
-soup = BeautifulSoup(content, 'lxml') # Escogemos el metodo de obtención del archivo html
-# print(soup.prettify()) # hacemos un print de ello. prettify() sirve para que sea un poco más visual.
+# # ponemos el link de la pagina:
+# website = 'https://resultados.as.com/resultados/futbol/primera/clasificacion/'
+# result=requests.get(website) # Obtenemos la la pagina
+# content=result.text #Al resultado cogemos la parte tipo text.
+# soup = BeautifulSoup(content, 'lxml') # Escogemos el metodo de obtención del archivo html
+# # print(soup.prettify()) # hacemos un print de ello. prettify() sirve para que sea un poco más visual.
