@@ -2,6 +2,7 @@
 from bs4 import BeautifulSoup
 import requests
 import time
+import sofifa
 
 # link pagina:
 url = "https://www.premierleague.com/tables"
@@ -17,3 +18,4 @@ for i in prueba:
     equipos.append(i.text) # Cogemos solo el texto de la etiqueta span
 for i in range(0,20):
     print("puesto: %d equipo: %s" % (i+1, equipos[i]))
+    sofifa.busquedajugadores(equipos[i])
