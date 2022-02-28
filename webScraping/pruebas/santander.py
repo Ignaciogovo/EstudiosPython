@@ -3,10 +3,10 @@ import requests
 import time
 import sofifa
 # link pagina:
-url = "https://www.ligue1.com/ranking"
+url = "https://www.laliga.com/laliga-santander/clasificacion"
 page = requests.get(url) # Optenemos la pagina
 soup = BeautifulSoup(page.content,'html.parser')
-prueba = soup.find_all("span", class_="GeneralStats-clubName desktop-item")
+prueba = soup.find_all("div", class_="styled__ShieldContainer-lo8ov8-0 bkblFd shield-desktop")
 equipos = list()
 count = 0
 for i in prueba:

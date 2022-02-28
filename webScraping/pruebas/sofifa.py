@@ -1,3 +1,4 @@
+from hashlib import new
 from lib2to3.pgen2 import driver
 from selenium import webdriver
 import pandas as pd
@@ -8,7 +9,9 @@ from selenium.webdriver.common.keys import Keys
 import time
 from bs4 import BeautifulSoup
 import requests
-def busquedajugadores(equipo):
+from datetime import date
+#Esta función busca a los jugadores a partir del nombre del equipo.
+def busquedajugadores(nombre_equipo):
     website = 'https://sofifa.com/teams'
     path = 'C:\driversChrome\chromedriver.exe'
     driver = webdriver.Chrome(executable_path=path)
@@ -21,16 +24,31 @@ def busquedajugadores(equipo):
     Cookiess2.click()
     #Buscamos al equipo
     busquedaEquipo = driver.find_element(By.NAME,'keyword')
-    busquedaEquipo.send_keys(equipo)
+    busquedaEquipo.send_keys(nombre_equipo)
     busquedaEquipo.send_keys(Keys.ENTER)
     time.sleep(2)
-    #Pinchamos en el equipo
-    equipo = driver.find_element(By.XPATH,'//*[@id="body"]/div[1]/div/div[2]/div/table/tbody/tr/td[2]/a[1]/div')
-    equipo.click()
-    time.sleep(1)
-    #Sacamos la url de la pagina de datos del equipo
-    url_jugadores = driver.current_url
-    listajugadores(url_jugadores)
+    #Sacamos la url actual para usar beatiful soup
+    url_equipos = driver.current_url
+    #Usamos beatiful soup
+    page = requests.get(url_equipos) # Optenemos la pagina
+    soup = BeautifulSoup(page.content,'html.parser')
+    #Si no sale ningun equipo en la lista se ejecuta este if:
+    if soup.find("td", class_="col-name-wide") == None:
+        nombre_equipo = nombre_equipo[:4] #Acortamos el nombre del equipo para reducir errores en la diferencia de escritura
+        # Volvemos a Buscar el equipo
+        busquedaEquipo = driver.find_element(By.NAME,'keyword')
+        busquedaEquipo.send_keys(nombre_equipo)
+        busquedaEquipo.send_keys(Keys.ENTER)
+        time.sleep(2)
+        # volvemos a sacar la url actual:
+        url_equipos = driver.current_url
+        page = requests.get(url_equipos) # Optenemos la pagina
+        soup = BeautifulSoup(page.content,'html.parser')
+
+    listaEquipos = soup.find("td", class_="col-name-wide")
+    urlPrimerequipo = listaEquipos.find("a") #Buscamos el primer enlace de la lista de equipos:
+    link = urlPrimerequipo.get('href') #Sacamos el link interno de la pagina
+    listajugadores("https://sofifa.com"+link)
 
 
 
@@ -58,7 +76,9 @@ def sacardatosJugadores(get_url):
     page = requests.get(get_url) # Optenemos la pagina
     soup = BeautifulSoup(page.content,'html.parser')
     datos = soup.find("div", class_="info")
+    #Buscamos el nombre:
     nombre = datos.find("h1")
+    #Buscamos el pais:
     pais = datos.find("a")
     pais = pais.get("title")
     print("Pais:")
@@ -69,12 +89,13 @@ def sacardatosJugadores(get_url):
     print("Datos:")
     diferenciardatos(datosindi.text)
     sacarvalor= soup.find("section", class_="card spacing")
-    #Buscamos el valor entre las otras estadisticas:
+    #Buscamos el valor economico entre las otras estadisticas:
     for i in sacarvalor.find_all("div", class_="block-quarter"):
         if i.find("div", class_="sub").text == "Value": #Si el texto del div es igual a value:
             valor = i.find("div").text
             valor=valor.replace("Value","").replace("€","") #Eliminamos los datos no numericos del valor
-    print(valor)
+    valor=convertirValor(valor)
+    print("El valor es: "+str(valor))
 #Sacar datos individuales de la cadena de texto:
 def diferenciardatos(cadena):
     sinespacios = cadena.replace(" ", "")#Elimina los espacios
@@ -84,5 +105,40 @@ def diferenciardatos(cadena):
     parentesis1 = cadena.find("(")
     parentesis2 = cadena.find(")")
     fecha = cadena[parentesis1+1:parentesis2]
-    print("La fecha de nacimiento: "+fecha)
-    
+    print(fecha)
+    fecha = convertirFechas(fecha)
+    print("La fecha de nacimiento: "+str(fecha))
+
+
+# Convertimos las fechas para que sea legible en sql
+def convertirFechas (cadena):
+    sinespacios = cadena.replace(" ", "")
+        #Sacamos el dia
+    coma = cadena.find(",")
+    dia = int(sinespacios[3:coma].replace(",", ""))
+    #Sacamos mes
+    cadenames=sinespacios[:3]
+    months = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+    for month in months:
+        if cadenames ==month:
+            mes = int((months.index(month)+1))
+    #sacamos año
+    año = int(sinespacios[coma:].replace(",", ""))
+    #Convertimos los datos en una fecha
+    new_date = date(año,mes,dia)
+    return new_date
+
+    #Convertimos el valor en miles o millones
+def convertirValor (cadena):
+    sinespacios = cadena.replace(" ", "")
+    numerocaracteres = len(sinespacios)
+    if sinespacios[numerocaracteres-1] == "M":
+        valor = sinespacios.replace("M","")
+        valor = float(valor)
+        valor = valor * 1000000
+    else:
+        valor = sinespacios.replace("K","")
+        valor = float(valor)
+        valor = valor * 1000
+    valor = int(valor)
+    return(valor)
