@@ -9,5 +9,16 @@ https://tutorialpython.com
 
 
 
+Analizar datos de un html con uso de bucles: https://unipython.com/analizar-html-con-python/
+
+
+
+
+
+
+Falta:
 
 aprender librerias Beatifulsoup y pandas.
+
+Arreglar fallos con la busqueda de los equipos
+Meter esos datos en un csv
