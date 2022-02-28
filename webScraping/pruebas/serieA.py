@@ -17,6 +17,6 @@ for i in nombre_equipo:
     if equipo == "Nápoles":
         equipo = "Napoli"
     equipos.append(equipo) # Cogemos solo el texto de la etiqueta span
-for i in range(0,2):
+for i in range(0,10):
     print("puesto: %d equipo: %s" % (i+1, equipos[i]))
     sofifa.busquedajugadores(equipos[i])

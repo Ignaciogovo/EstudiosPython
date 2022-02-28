@@ -7,7 +7,8 @@ http://pythonentresdias.blogspot.com
 https://www.tutorialesprogramacionya.com/pythonya/index.php?inicio=0
 https://tutorialpython.com
 
-
+Todo sobre las cadenas de caracteres:
+https://programminghistorian.org/es/lecciones/manipular-cadenas-de-caracteres-en-python
 
 Analizar datos de un html con uso de bucles: https://unipython.com/analizar-html-con-python/
 

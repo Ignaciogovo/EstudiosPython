@@ -67,13 +67,22 @@ def sacardatosJugadores(get_url):
     print(nombre.text)
     datosindi=datos.find("div")
     print("Datos:")
-    print(datosindi.text)
+    diferenciardatos(datosindi.text)
     sacarvalor= soup.find("section", class_="card spacing")
     #Buscamos el valor entre las otras estadisticas:
     for i in sacarvalor.find_all("div", class_="block-quarter"):
         if i.find("div", class_="sub").text == "Value": #Si el texto del div es igual a value:
             valor = i.find("div").text
-            valor=valor.replace("MValue","").replace("€","").replace("KValue","") #Eliminamos los datos no numericos del valor
+            valor=valor.replace("Value","").replace("€","") #Eliminamos los datos no numericos del valor
     print(valor)
-
-
+#Sacar datos individuales de la cadena de texto:
+def diferenciardatos(cadena):
+    sinespacios = cadena.replace(" ", "")#Elimina los espacios
+    posicion=sinespacios[:2] #Sacamos los dos primeros caracteres de la cadena de texto
+    print("Posicion: "+posicion)
+    #Sacamos la fecha de nacimiento:
+    parentesis1 = cadena.find("(")
+    parentesis2 = cadena.find(")")
+    fecha = cadena[parentesis1+1:parentesis2]
+    print("La fecha de nacimiento: "+fecha)
+    
