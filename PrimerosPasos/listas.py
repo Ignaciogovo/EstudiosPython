@@ -29,6 +29,11 @@ print(lista.count(2))
 print(len(lista)) # Indica la cantidad de valores que tiene una lista.
 
 
+# Comprobar que un valor se encuentra en una lista:
+if 3 in [1,2,4,5]: # Devuelve 0 o 1 dependiendo si esta o no
+    print("Se encuentra")
+if 3 not in [1,2,4,5]: # Devuelve 0 o 1 dependiendo si esta o no
+    print("No encuentra")
     # Sumar listas
 
 lista1 = ["variable1",2,5,1,"variable3"]
