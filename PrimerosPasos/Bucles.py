@@ -43,4 +43,7 @@ for x in range(10): # Range crea una lista de x numeros seguidos.
         continue # Salta esta iteración.
     print (x)
 
-
+# rango entre 3 y 6
+x = range(3, 6)
+for n in x:
+  print(n)

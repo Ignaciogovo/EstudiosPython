@@ -2,7 +2,6 @@
     # Las listas son muy parecidas a los arreglos.
     # Como crear una lista:
 lista = [1,2,3,2,2,2,2]
-
     # Recorrer lista
 for x in lista:
     print(x)
@@ -21,6 +20,7 @@ print ("prueba2" in lista) # Devuelve true si prueba2 se encuentra en la lista
     # Eliminar elementos
 lista.remove("prueba2") # --> Elimina un valor de la lista.
 lista.pop() # --> Elimina el ultimo elemento de la lista.
+lista.pop(0) # --> Elimina el primer elemento de la lista.
 
     # count: --> indica cuantos elementos se encuentran en una lista.
     # Vamos a contar cuantas veces se encuentra el elemento 2 en la lista.
