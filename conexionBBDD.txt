@@ -78,3 +78,15 @@ for row in resultados:
     print ("ID: ", id, ", nombre: ", name)
  
 db.close()
+
+
+
+
+Verificar cadena vacia:
+def get_hours():
+    result = dbconn.query("select * from hours where date < (select max(date) from last_export) order by date DESC")   
+
+    if result:
+        return result
+    else:
+        return False
