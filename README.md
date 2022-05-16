@@ -12,14 +12,14 @@ https://programminghistorian.org/es/lecciones/manipular-cadenas-de-caracteres-en
 
 Analizar datos de un html con uso de bucles: https://unipython.com/analizar-html-con-python/
 
-
-
+Creacion de bot de twitter con python:
+  retweets: https://www.configuroweb.com/suite-de-bots-de-twitter-en-python-con-tweepy/
+  Video: https://www.youtube.com/watch?v=mpMzrDnBMeY
+  código básico: https://jantoniomora.wordpress.com/tag/tweepy/
 
 
 
 Falta:
 
 aprender librerias Beatifulsoup y pandas.
-
-Arreglar fallos con la busqueda de los equipos
 Meter esos datos en un csv
