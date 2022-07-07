@@ -1,0 +1,180 @@
+Libreria que permite comunicarse por ssh con python a un servidor
+
+# Instalacion:
+pip install paramiko
+
+# importar:
+    import paramiko
+
+    # Introducimos los datos
+    HOST = 'XX.XX.XX.XX'
+    PUERTO = 22
+    USUARIO = 'User'
+    PASS='P@$W0rD'
+
+    ssh_client = paramiko.SSHClient()
+    ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy()) # Con esto indicamos que accedemos con nuestras propias credenciales
+    
+    # Nos conectamos al servidor a partir de las credenciales
+    ssh_client.connect(hostname=HOST, port=PUERTO, username=USUARIO, password=PASS)
+
+
+    # Realizamos el comando y el resultado lo convertimos en variables
+    entrada, salida, error = ssh_client.exec_command('systemctl status openvpn')
+    print(salida.read().decode()) # decode hace más legible el texto.
+    print(error.read().decode())
+
+    # Cerramos conexión
+    ssh_client.close()
+
+
+
+
+
+
+# Otra opción para ssh_client.connect:
+    datos = dict(hostname=HOST, port=PUERTO, username=USUARIO, password=PASS)
+    ssh_client.connect(**datos)
+
+
+
+
+
+
+
+
+
+
+
+# Generar canales:
+
+    # Generamos un canal y pedimos realizar un comando
+    session = client.get_transport().open_session()
+    if session.active:
+        session.exec_command('ls -l')
+        result = session.recv(1024).decode() # recv --> Indica la cantida de bytes que se quiere leer
+        print(result)
+
+    Ejemplo:
+        import paramiko
+
+        # Introducimos los datos
+        HOST = 'XX.XX.XX.XX'
+        PUERTO = 22
+        USUARIO = 'User'
+        PASS='P@$W0rD'
+
+        ssh_client = paramiko.SSHClient()
+        ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy()) # Con esto indicamos que accedemos con nuestras propias credenciales
+        
+        # Nos conectamos al servidor a partir de las credenciales
+        ssh_client.connect(hostname=HOST, port=PUERTO, username=USUARIO, password=PASS)
+
+        # Generamos un canal y pedimos realizar un comando
+        session = client.get_transport().open_session()
+        if session.active:
+            session.exec_command('ls -l')
+            result = session.recv(1024).decode() # recv --> Indica la cantida de bytes que se quiere leer
+            print(result)
+
+        # Cerramos conexión
+        ssh_client.close()
+
+
+
+
+
+
+# Enviar archivos:
+    sftp_client.put(
+        'Ruta origen',
+        'Ruta Destino'
+    )
+    sftp_client.close()
+
+    Ejemplo:
+        import paramiko
+
+        # Introducimos los datos
+        HOST = 'XX.XX.XX.XX'
+        PUERTO = 22
+        USUARIO = 'User'
+        PASS='P@$W0rD'
+
+        ssh_client = paramiko.SSHClient()
+        ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy()) # Con esto indicamos que accedemos con nuestras propias credenciales
+
+        # Nos conectamos al servidor a partir de las credenciales
+        ssh_client.connect(hostname=HOST, port=PUERTO, username=USUARIO, password=PASS)
+
+        # Enviamos el archivo a partir de esta serie de lineas
+        sftp_client = ssh_client.open_sftp()
+        sftp_client.put(
+            'Ruta origen',
+            'Ruta Destino'
+        )
+        sftp_client.close()
+
+        # Generamos un canal y pedimos realizar un comando
+        session = client.get_transport().open_session()
+        if session.active:
+            session.exec_command('ls -l')
+            result = session.recv(1024).decode() # recv --> Indica la cantida de bytes que se quiere leer
+            print(result)
+
+        # Cerramos conexión
+        ssh_client.close()
+
+
+
+
+# Extraer un archivo:
+
+    sftp_client.get(
+        'Ruta origen',
+        'Ruta Destino'
+    )
+    sftp_client.close()
+
+    Ejemplo:
+        import paramiko
+
+        # Introducimos los datos
+        HOST = 'XX.XX.XX.XX'
+        PUERTO = 22
+        USUARIO = 'User'
+        PASS='P@$W0rD'
+
+        ssh_client = paramiko.SSHClient()
+        ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy()) # Con esto indicamos que accedemos con nuestras propias credenciales
+
+        # Nos conectamos al servidor a partir de las credenciales
+        ssh_client.connect(hostname=HOST, port=PUERTO, username=USUARIO, password=PASS)
+
+        # Enviamos el archivo a partir de esta serie de lineas
+        sftp_client = ssh_client.open_sftp()
+        sftp_client.get(
+            'Ruta origen',
+            'Ruta Destino'
+        )
+        sftp_client.close()
+        # Generamos un canal y pedimos realizar un comando
+        session = client.get_transport().open_session()
+        if session.active:
+            session.exec_command('ls -l')
+            result = session.recv(1024).decode() # recv --> Indica la cantida de bytes que se quiere leer
+            print(result)
+
+        # Cerramos conexión
+        ssh_client.close()
+
+
+
+Comandos: https://alejandrollamazareslopez.com.es/python-ssh-paramiko/
+
+Orientado a objetos: https://www.pythonparatodo.com/?p=50
+
+Video: https://youtu.be/WM8Huq4hPGo
+
+Ejecutar como superUsuario: https://youtu.be/zQTGIvnm56M
+Ejecutar scp: https://youtu.be/8gA-_8a36cc
