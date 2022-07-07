@@ -1,0 +1,19 @@
+El archivo requirements.txt permite descargar e instalar de manera automatica los paquetes necesarios para un proyecto:
+
+Es necesario usar nombre exacto del paquete.
+
+Forma de anotarlos:
+
+
+# Para instalar una versión específica:
+paquete ==version
+
+# Para instalar una versión igual o superior:
+paquete >= version
+
+# Para instalar la versión más reciente:
+paquete
+
+
+Como instalar los paquetes ptyhon anotados en el archivo requirements.txt (Es necesario realizarlo en la carpeta donde se encuentra el archivo)
+pip install -r requirements.txt

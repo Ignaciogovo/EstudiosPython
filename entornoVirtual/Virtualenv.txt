@@ -1,0 +1,35 @@
+# Para instalarlo:
+pip install virtualenv
+
+# Verificar version:
+virtualenv --version
+
+# Crear entorno:
+    --> Si la version es menor que 20: virtualenv --no-site-packages my-env 
+virtualenv my-env --> Esto crea un directorio con el nombre my-env/. Ahí se instala los módulos y ejecutables de python.
+    --> Tambien se peude especificar la versión de python con la que se quiere trabajar: virtualenv --python=/usr/bin/python2.7 my-env
+
+# Enumerar entornos: (No funciona) Necesario el paquete: virtualenvwrapper
+lsvirtualenv
+
+# Activar un entorno:
+source my-env/bin/activate
+
+# Instalar paquetes:
+pip install algun-paquete
+pip install -r requirements.txt
+
+Si quieres crear un archivo requirements.txt  a partir de los paquetes ya instalados, ejecuta el siguiente comando:
+
+pip freeze > requirements.txt
+
+# Desactivar un entorno
+deactivate
+
+# Borrar entorno:
+rm -R nombre-carpeta
+
+
+
+ 
+Paquete virtualenvwrapper: https://pythondiario.com/2016/04/entornos-virtuales-en-python-virtualenv.html

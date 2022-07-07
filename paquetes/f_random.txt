@@ -1,0 +1,8 @@
+import random
+random.randrange(10) --> Devuelve un numero entre 0 y 9, 10 no incluido.
+random.randrange(0,11,2) --> devuelve un numero entre 0 y 10 contanto de dos en dos.
+random.randint(0,10) --> Devuelve un numero entre el 0 y 10
+random.choice(["rojo","negro","verde"]) --> Devuelve un elemento aleatorio de la lista
+random.random()*100 --> nos devuelve un numero flotante entre el 0.0 y el 100.0
+random.uniform(1,2) --> Devuelve un numero flotante entre el 1.0 y el 2.0
+random.shuffle(lista) mezcla aleatoriamente un orden de los elementos
