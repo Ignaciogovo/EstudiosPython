@@ -170,6 +170,12 @@ pip install paramiko
 
 
 
+
+Errores:
+    Error con conexion sftp_client:   File "/prueba/conexion/lib/python3.10/site-packages/paramiko/sftp_client.py", line 907, in _convert_status raise IOError(text)
+        Posible problema: la ruta de origen o final no está completa
+        Solución: Escribir la ruta completa, escribir nombre de archivo
+
 Comandos: https://alejandrollamazareslopez.com.es/python-ssh-paramiko/
 
 Orientado a objetos: https://www.pythonparatodo.com/?p=50

@@ -1,0 +1,74 @@
+# La funcion princial: open()
+
+# 4 metodos:
+"r"- Leer - Valor por defecto. Abre un archivo para lectura, error si el archivo no existe
+"a"- Agregar: abre un archivo para agregar, crea el archivo si no existe
+"w"- Escribir: abre un archivo para escribir, crea el archivo si no existe
+"x"- Crear: crea el archivo especificado, devuelve un error si el archivo existe
+
+# Especificar si binario o tipo texto:
+"t"- Texto - Valor por defecto. Modo de texto
+"b"- Binario - Modo binario (por ejemplo, imágenes)
+
+# Sintaxis:
+f = open("archivo.txt")  ---> Es igual que f = open("demofile.txt", "rt") (Al ser los predeterminados)
+f = open("demofile.txt", "w") --> Escribir
+f.close()
+
+
+
+# LEER:
+f = open("demofile.txt", "r")
+print(f.read())
+
+    #LEER 5 CARACTERES:
+    print(f.read( 5))
+
+    #Leer lineas:
+    print(f.readline())
+
+    # Leer dos lineas:
+    print(f.readline())
+    print(f.readline())
+
+    # Leer archivo linea a linea
+    f = open("demofile.txt", "r")
+    for x in f:
+    print(x)
+
+# Escribir:
+    "a"- Agregar: se agregará al final del archivo
+    "w"- Escribir: sobrescribirá cualquier contenido existente
+
+    # Agregar:
+    f = open("prueba.txt", "a")
+    f.write("Prueba agregando!")
+    f.close()
+
+    # Sobrescribir:
+    f = open("demofile3.txt", "w")
+    f.write("Prueba sobrescribiendo!")
+    f.close()
+
+
+# Crear un archivo:
+    "x"- Create - creará un archivo, devuelve un error si el archivo existe
+    "a"- Agregar: creará un archivo si el archivo especificado no existe
+    "w"- Escribir: creará un archivo si el archivo especificado no existe
+
+    # Create:
+    f = open("myfile.txt", "x")
+
+
+
+
+# Eliminar un archivo
+import os
+os.remove("demofile.txt")
+
+ #Comprobar si existe el archivo:
+ import os
+    if os.path.exists("demofile.txt"):
+    os.remove("demofile.txt")
+    else:
+    print("The file does not exist")
