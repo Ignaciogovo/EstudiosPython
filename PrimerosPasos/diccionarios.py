@@ -36,3 +36,7 @@ print(capitales.values())
 # Imprimir keys
 print(capitales.keys())
 
+# Comprobar si una clave se encuentra en el diccionario:
+if "España" in capitales:
+    print (capitales["España"])
+

@@ -1,4 +1,6 @@
 # Condicionales de una linea:
+import sys
+
 x = 2
 print (x == 2) # Imprimira en pantalla TRUE
 print (x == 3) # Imprimira en pantalla FALSE
@@ -34,3 +36,13 @@ print(f"Usted dice que tiene {edad} años.")
 # Operador and Se tiene que cumplir los dos valores
 # operador or. Se tiene que cumplir uno de los dos valores.
 # Operador not. Devuelve el valor opuesto.
+
+
+#Condicionales try and exept:
+# Si hay algún tipo de error en el apartado try se ejecutará execpt:
+try:
+    print("No da error el comando")
+except:
+    print("Da error")
+    # Si queremos salir del programa
+    sys.exit(1)
