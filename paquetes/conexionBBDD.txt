@@ -81,6 +81,26 @@ db.close()
 
 
 
+Borrar datos:
+Leer base de datos:
+import pymysql
+ 
+db = pymysql.connect(host='database_host',user='username',password='password',database='database_name',charset='utf8mb4')
+
+id=input("Que dato desea borrar?")
+cursor = db.cursor()
+sql="delete from pokemon where id=%s"
+ 
+cursor.execute(sql,id)
+ 
+resultados = cursor.fetchall()
+for row in resultados:
+    id = row[0]
+    name = row[1]
+    print ("ID: ", id, ", nombre: ", name)
+ 
+db.close()
+
 
 Verificar cadena vacia:
 def get_hours():

@@ -40,3 +40,9 @@ print(capitales.keys())
 if "España" in capitales:
     print (capitales["España"])
 
+
+# Recorrer un diccionario junto su valor:
+for x in capitales:
+    valor = capitales.get(x)
+    print(x," --> ",valor)
+
