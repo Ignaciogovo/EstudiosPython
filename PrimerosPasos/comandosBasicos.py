@@ -65,6 +65,14 @@ print (unacadena.index("o")) # devuelve la posición de la primera o
 lista = unacadena.split(" ") # convierte en valores de una lista todas los caracteres separados por un espacio.
 # 6 Entrada de datos
 edad = input("Cual es tu edad?: ")
+# Valor por defecto:
+input = input("Cual es tu edad?: ") or ("23")
+
+
+
+
+# Enlaces
+# Pedir un valor hasta que sea verdadero https://www.codigopiton.com/pedir-valor-al-usuario-hasta-que-sea-valido-en-python/
 
 
 
