@@ -54,12 +54,49 @@ class fabrica:
 
     def __len__(self): # Indica la duración o longitud del objeto:
         return self.tiempo
-a = fabrica(10,"auto",4)
-a = fabrica(10,"rico",4)
+# a = fabrica(10,"auto",4)
+# a = fabrica(10,"rico",4)
 
 
 # Para ejecutar la funcion __str__
-print(a)
+# print(a)
 
-# Para ejecutar la funcion __len__
-len(a)
+# # Para ejecutar la funcion __len__
+# len(a)
+
+class listado:
+    autos = []
+    def __init__(self,autos=[]):
+        self.autos = autos
+
+    def fabrica(self,x):
+        self.autos.append(x)
+
+    def visualizar(self):
+        for x in self.autos:
+            print(x)
+
+# Insertamos en el listado los coches creados 
+a = fabrica(10,"auto",4)
+l = listado([a])
+
+l.fabrica(fabrica(15,"Estudiantes",2))
+
+l.visualizar()
+
+
+
+
+
+# Encapsulamiento:
+class encapsulamiento:  # Añadiendo __ antes de un atributo o metodo, no lo hace visible
+    __privado_atri = "Soy un atributo"
+
+    def __privado_met(self):
+        print("Soy un metodo")
+    
+    def publico_atri(self):
+        return self.__privado_atri
+    
+    def publico_met(self):
+        return self.__privado_met()

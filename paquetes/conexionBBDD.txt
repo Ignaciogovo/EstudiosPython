@@ -90,8 +90,7 @@ db = pymysql.connect(host='database_host',user='username',password='password',da
 id=input("Que dato desea borrar?")
 cursor = db.cursor()
 sql="delete from pokemon where id=%s"
- 
-cursor.execute(sql,id)
+cursor.execute(sql,id )
  
 resultados = cursor.fetchall()
 for row in resultados:
