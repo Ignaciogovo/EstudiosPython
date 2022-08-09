@@ -1,3 +1,7 @@
+from email.errors import MalformedHeaderDefect
+from turtle import color
+
+
 try:
     a = int("prueba")
 except:
@@ -76,13 +80,13 @@ class listado:
         for x in self.autos:
             print(x)
 
-# Insertamos en el listado los coches creados 
-a = fabrica(10,"auto",4)
-l = listado([a])
+# # Insertamos en el listado los coches creados 
+# a = fabrica(10,"auto",4)
+# l = listado([a])
 
-l.fabrica(fabrica(15,"Estudiantes",2))
+# l.fabrica(fabrica(15,"Estudiantes",2))
 
-l.visualizar()
+# l.visualizar()
 
 
 
@@ -100,3 +104,62 @@ class encapsulamiento:  # Añadiendo __ antes de un atributo o metodo, no lo hac
     
     def publico_met(self):
         return self.__privado_met()
+
+
+# HERENCIA:
+
+# CREAMOS LA SUPER CLASE:
+class fabrica:
+    def __init__(self,marca,nombre,precio,descripcion) -> None:
+        self.marca = marca
+        self.nombre = nombre
+        self.precio = precio
+        self.descripcion = descripcion
+    
+    def __str__(self):
+        return """
+MARCA\t\t{}
+NOMBRE\t\t{}
+PRECIO\t\t{}
+DESCRIPCIÓN\t{}""".format(self.marca,self.nombre,self.precio,self.descripcion)
+
+# CREAMOS LA SUBCLASE AUTO
+
+class auto(fabrica):
+    pass
+
+# Creamos un ejemplo:
+z = auto('Ford','Ranger',100000,'pickup')
+# print(z)
+
+# CREAMOS OTRA SUBCLASE:
+class deportivo(fabrica):
+    ruedas = ""
+    distribuidor = ""
+
+    def __str__(self):
+        return """
+MARCA\t\t{}
+NOMBRE\t\t{}
+PRECIO\t\t{}
+RUEDAS\t\t{}
+DISTRIBUIDOR\t{}
+DESCRIPCIÓN\t{}""".format(self.marca,self.nombre,self.precio,self.ruedas,self.distribuidor,self.descripcion)
+
+coche = deportivo('Ferrari','La Ferrari',250000,'1000 Caballos de potencia')
+coche.ruedas = 4
+coche.distribuidor = 'Automoviles Paco'
+# print(coche)
+
+# Comprobar si un objeto pertenece a una subclase:
+
+if (isinstance(coche, deportivo)):
+    print(coche.ruedas)
+
+
+# Incluir un objeto en una funcion:
+def descuento_precio(objeto,descuento):
+    objeto.precio = objeto.precio -((objeto.precio/100) * descuento)
+
+descuento_precio(coche,10)
+print(coche.precio)
