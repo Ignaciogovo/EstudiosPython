@@ -1,0 +1,211 @@
+﻿partido,local,goles_local,visitante,goles_visitante,arbitro,aforo,jornada
+202,"Sevilla FC",3,"Inter de Milán",2,"Antonio Miguel Mateu Lahoz",72%,21
+205,"Manchester United",2,"Borussia Dortmund",1,"Antonio Miguel Mateu Lahoz",73%,21
+207,"Manchester City",6,Leverkusen,3,"Antonio Miguel Mateu Lahoz",97%,21
+209,Barcelona,1,"Olympique De Marseille",0,"Bjorn Kuipers",66%,21
+203,Chelsea,1,"AC Milán",2,"Cüneyt Çakır",83%,21
+201,"Tottenham Hotspur",2,Juventus,0,"Damir Skomina",70%,21
+204,Liverpool,0,Napoli,1,"Damir Skomina",95%,21
+206,Arsenal,2,"Bayern de Múnich",3,"Damir Skomina",75%,21
+210,"Real Madrid",0,"Atlético de Madrid",1,"Mark Geiger",75%,21
+208,"West Ham United",0,"Paris saint-germain",1,"Néstor Pitana",76%,21
+191,"Sevilla FC",2,"Tottenham Hotspur",1,"Bjorn Kuipers",83%,20
+193,"Inter de Milán",0,Liverpool,5,"Bjorn Kuipers",81%,20
+192,Juventus,2,Chelsea,3,"Cüneyt Çakır",76%,20
+198,Leverkusen,2,Barcelona,1,"Jonas Eriksson",87%,20
+197,"Bayern de Múnich",6,"West Ham United",2,"Mark Geiger",99%,20
+200,"Olympique De Marseille",3,"Atlético de Madrid",1,"Mark Geiger",67%,20
+196,"Borussia Dortmund",3,"Manchester City",5,"Martin Atkinson",83%,20
+199,"Paris saint-germain",1,"Real Madrid",0,"Néstor Pitana",90%,20
+194,"AC Milán",3,"Manchester United",1,"Viktor Kassaï",88%,20
+195,Napoli,2,Arsenal,3,"Viktor Kassaï",79%,20
+186,"West Ham United",1,Napoli,2,"Antonio Miguel Mateu Lahoz",85%,19
+188,"Real Madrid",3,"Bayern de Múnich",1,"Bjorn Kuipers",99%,19
+182,Liverpool,5,"Sevilla FC",2,"Cüneyt Çakır",77%,19
+183,"Manchester United",2,Juventus,1,"Cüneyt Çakır",71%,19
+181,"Tottenham Hotspur",1,Chelsea,2,"Damir Skomina",80%,19
+187,Barcelona,1,"Borussia Dortmund",2,"Damir Skomina",72%,19
+184,Arsenal,3,"Inter de Milán",2,"Jonas Eriksson",83%,19
+185,"Manchester City",4,"AC Milán",3,"Mark Geiger",97%,19
+189,"Atlético de Madrid",5,Leverkusen,3,"Mark Geiger",87%,19
+190,"Olympique De Marseille",0,"Paris saint-germain",1,"Mark Geiger",93%,19
+172,Chelsea,2,"Manchester United",0,"Bjorn Kuipers",74%,18
+173,"Sevilla FC",1,Arsenal,2,"Bjorn Kuipers",71%,18
+174,Juventus,3,"Manchester City",4,"Bjorn Kuipers",82%,18
+178,"Borussia Dortmund",3,"Atlético de Madrid",1,"Bjorn Kuipers",75%,18
+180,Leverkusen,2,"Paris saint-germain",4,"Jonas Eriksson",69%,18
+171,Liverpool,1,"Tottenham Hotspur",3,"Mark Geiger",78%,18
+179,"Bayern de Múnich",4,"Olympique De Marseille",1,"Mark Geiger",75%,18
+175,"Inter de Milán",3,"West Ham United",2,"Martin Atkinson",66%,18
+176,"AC Milán",3,Barcelona,2,"Viktor Kassaï",77%,18
+177,Napoli,1,"Real Madrid",2,"Viktor Kassaï",86%,18
+169,"Paris saint-germain",1,"Borussia Dortmund",0,"Antonio Miguel Mateu Lahoz",76%,17
+161,"Tottenham Hotspur",3,"Manchester United",1,"Bjorn Kuipers",78%,17
+163,"Manchester City",3,Chelsea,0,"Bjorn Kuipers",93%,17
+170,Leverkusen,1,"Bayern de Múnich",4,"Damir Skomina",88%,17
+165,Barcelona,1,Juventus,0,"Mark Geiger",93%,17
+166,"Real Madrid",3,"Inter de Milán",1,"Mark Geiger",83%,17
+162,Arsenal,2,Liverpool,6,"Martin Atkinson",70%,17
+164,"West Ham United",2,"Sevilla FC",3,"Viktor Kassaï",72%,17
+167,"Atlético de Madrid",3,"AC Milán",2,"Viktor Kassaï",74%,17
+168,"Olympique De Marseille",2,Napoli,3,"Viktor Kassaï",86%,17
+151,Arsenal,3,"Tottenham Hotspur",2,"Antonio Miguel Mateu Lahoz",71%,16
+154,Chelsea,2,Barcelona,3,"Antonio Miguel Mateu Lahoz",99%,16
+158,"AC Milán",2,"Paris saint-germain",4,"Antonio Miguel Mateu Lahoz",76%,16
+156,Juventus,2,"Atlético de Madrid",0,"Bjorn Kuipers",94%,16
+157,"Inter de Milán",4,"Olympique De Marseille",1,"Bjorn Kuipers",89%,16
+159,Napoli,1,Leverkusen,0,"Bjorn Kuipers",99%,16
+152,"Manchester United",1,"Manchester City",1,"Mark Geiger",74%,16
+155,"Sevilla FC",3,"Real Madrid",1,"Martin Atkinson",79%,16
+160,"Borussia Dortmund",1,"Bayern de Múnich",3,"Néstor Pitana",81%,16
+153,Liverpool,2,"West Ham United",1,"Viktor Kassaï",74%,16
+150,"Borussia Dortmund",2,Napoli,0,"Antonio Miguel Mateu Lahoz",88%,15
+141,"Tottenham Hotspur",1,"Manchester City",6,"Bjorn Kuipers",96%,15
+143,Barcelona,3,"Manchester United",2,"Bjorn Kuipers",87%,15
+145,"Atlético de Madrid",0,Chelsea,1,"Cüneyt Çakır",95%,15
+147,"Paris saint-germain",0,Juventus,0,"Mark Geiger",78%,15
+146,"Olympique De Marseille",0,"Sevilla FC",2,"Martin Atkinson",65%,15
+142,"West Ham United",2,Arsenal,1,"Néstor Pitana",89%,15
+149,"Bayern de Múnich",1,"AC Milán",1,"Néstor Pitana",82%,15
+144,"Real Madrid",1,Liverpool,0,"Viktor Kassaï",74%,15
+148,Leverkusen,2,"Inter de Milán",0,"Viktor Kassaï",96%,15
+139,"Inter de Milán",0,"Borussia Dortmund",1,"Antonio Miguel Mateu Lahoz",88%,14
+136,Chelsea,3,"Paris saint-germain",2,"Bjorn Kuipers",79%,14
+137,"Sevilla FC",2,Leverkusen,0,"Bjorn Kuipers",76%,14
+135,Liverpool,3,"Olympique De Marseille",2,"Cüneyt Çakır",88%,14
+138,Juventus,2,"Bayern de Múnich",1,"Cüneyt Çakır",76%,14
+131,"West Ham United",1,"Tottenham Hotspur",4,"Mark Geiger",67%,14
+133,Arsenal,1,"Real Madrid",2,"Martin Atkinson",75%,14
+132,"Manchester City",2,Barcelona,0,"Néstor Pitana",75%,14
+134,"Manchester United",2,"Atlético de Madrid",2,"Viktor Kassaï",83%,14
+140,"AC Milán",0,Napoli,3,"Viktor Kassaï",85%,14
+126,Leverkusen,2,Liverpool,0,"Antonio Miguel Mateu Lahoz",88%,13
+121,"Tottenham Hotspur",3,Barcelona,4,"Bjorn Kuipers",68%,13
+123,"Atlético de Madrid",1,"Manchester City",4,"Cüneyt Çakır",67%,13
+129,Napoli,1,Juventus,3,"Cüneyt Çakır",72%,13
+124,"Olympique De Marseille",0,Arsenal,2,"Mark Geiger",74%,13
+127,"Bayern de Múnich",3,Chelsea,2,"Mark Geiger",78%,13
+128,"Borussia Dortmund",2,"Sevilla FC",0,"Mark Geiger",78%,13
+130,"AC Milán",2,"Inter de Milán",1,"Mark Geiger",87%,13
+122,"Real Madrid",6,"West Ham United",2,"Viktor Kassaï",96%,13
+125,"Paris saint-germain",3,"Manchester United",1,"Viktor Kassaï",85%,13
+116,"Manchester United",4,"Bayern de Múnich",4,"Antonio Miguel Mateu Lahoz",88%,12
+115,Arsenal,4,Leverkusen,2,"Bjorn Kuipers",93%,12
+114,"Manchester City",3,"Paris saint-germain",2,"Cüneyt Çakır",72%,12
+120,Juventus,3,"Inter de Milán",1,"Damir Skomina",88%,12
+113,"West Ham United",1,"Olympique De Marseille",1,"Jonas Eriksson",85%,12
+111,"Real Madrid",3,"Tottenham Hotspur",2,"Mark Geiger",90%,12
+118,Chelsea,1,Napoli,0,"Mark Geiger",75%,12
+117,Liverpool,2,"Borussia Dortmund",3,"Martin Atkinson",86%,12
+112,Barcelona,2,"Atlético de Madrid",1,"Néstor Pitana",72%,12
+119,"Sevilla FC",2,"AC Milán",1,"Néstor Pitana",98%,12
+105,"Bayern de Múnich",3,"Manchester City",4,"Antonio Miguel Mateu Lahoz",84%,11
+106,"Borussia Dortmund",3,Arsenal,2,"Antonio Miguel Mateu Lahoz",83%,11
+101,"Tottenham Hotspur",1,"Atlético de Madrid",4,"Damir Skomina",68%,11
+102,"Olympique De Marseille",1,"Real Madrid",3,"Damir Skomina",78%,11
+104,Leverkusen,3,"West Ham United",0,"Jonas Eriksson",96%,11
+110,Juventus,3,"Sevilla FC",2,"Mark Geiger",82%,11
+103,"Paris saint-germain",4,Barcelona,2,"Martin Atkinson",68%,11
+108,"AC Milán",4,Liverpool,0,"Martin Atkinson",90%,11
+107,Napoli,2,"Manchester United",4,"Néstor Pitana",66%,11
+109,"Inter de Milán",0,Chelsea,4,"Néstor Pitana",82%,11
+97,Arsenal,0,"AC Milán",1,"Antonio Miguel Mateu Lahoz",94%,10
+99,Liverpool,3,Juventus,1,"Bjorn Kuipers",81%,10
+92,"Atlético de Madrid",0,"Paris saint-germain",2,"Cüneyt Çakır",91%,10
+100,Chelsea,3,"Sevilla FC",1,"Cüneyt Çakır",87%,10
+96,"Manchester City",3,Napoli,1,"Damir Skomina",86%,10
+98,"Manchester United",2,"Inter de Milán",1,"Damir Skomina",86%,10
+95,"West Ham United",0,"Borussia Dortmund",4,"Jonas Eriksson",74%,10
+93,"Real Madrid",5,Leverkusen,0,"Martin Atkinson",66%,10
+91,"Olympique De Marseille",1,"Tottenham Hotspur",3,"Néstor Pitana",89%,10
+94,Barcelona,0,"Bayern de Múnich",2,"Néstor Pitana",89%,10
+83,"Bayern de Múnich",2,"Atlético de Madrid",3,"Antonio Miguel Mateu Lahoz",98%,9
+88,Juventus,4,Arsenal,3,"Antonio Miguel Mateu Lahoz",89%,9
+82,Leverkusen,2,"Olympique De Marseille",3,"Bjorn Kuipers",74%,9
+81,"Tottenham Hotspur",1,"Paris saint-germain",2,"Cüneyt Çakır",89%,9
+89,"Sevilla FC",3,"Manchester United",1,"Jonas Eriksson",85%,9
+84,"Borussia Dortmund",2,"Real Madrid",4,"Mark Geiger",81%,9
+87,"Inter de Milán",2,"Manchester City",3,"Mark Geiger",75%,9
+90,Chelsea,3,Liverpool,2,"Martin Atkinson",84%,9
+85,Napoli,3,Barcelona,4,"Viktor Kassaï",77%,9
+86,"AC Milán",4,"West Ham United",1,"Viktor Kassaï",68%,9
+80,"Manchester United",0,Liverpool,2,"Bjorn Kuipers",88%,8
+73,"Olympique De Marseille",2,"Borussia Dortmund",5,"Cüneyt Çakır",71%,8
+76,Barcelona,4,"Inter de Milán",1,"Cüneyt Çakır",82%,8
+77,"West Ham United",1,Juventus,2,"Cüneyt Çakır",80%,8
+71,Leverkusen,3,"Tottenham Hotspur",1,"Damir Skomina",94%,8
+78,"Manchester City",2,"Sevilla FC",0,"Jonas Eriksson",90%,8
+74,"Atlético de Madrid",0,Napoli,3,"Mark Geiger",72%,8
+75,"Real Madrid",3,"AC Milán",2,"Mark Geiger",70%,8
+79,Arsenal,2,Chelsea,3,"Mark Geiger",79%,8
+72,"Paris saint-germain",0,"Bayern de Múnich",3,"Néstor Pitana",76%,8
+68,Chelsea,4,"West Ham United",0,"Antonio Miguel Mateu Lahoz",80%,7
+61,"Tottenham Hotspur",0,"Bayern de Múnich",2,"Cüneyt Çakır",74%,7
+62,"Borussia Dortmund",0,Leverkusen,3,"Cüneyt Çakır",78%,7
+69,Liverpool,3,"Manchester City",0,"Cüneyt Çakır",75%,7
+67,"Sevilla FC",0,Barcelona,2,"Jonas Eriksson",75%,7
+64,"AC Milán",3,"Olympique De Marseille",2,"Mark Geiger",78%,7
+70,"Manchester United",0,Arsenal,1,"Mark Geiger",75%,7
+65,"Inter de Milán",0,"Atlético de Madrid",3,"Martin Atkinson",68%,7
+63,Napoli,1,"Paris saint-germain",2,"Viktor Kassaï",84%,7
+66,Juventus,0,"Real Madrid",3,"Viktor Kassaï",89%,7
+53,Leverkusen,0,"AC Milán",2,"Antonio Miguel Mateu Lahoz",81%,6
+57,"Real Madrid",1,Chelsea,2,"Antonio Miguel Mateu Lahoz",95%,6
+51,"Borussia Dortmund",4,"Tottenham Hotspur",1,"Bjorn Kuipers",80%,6
+60,"Manchester City",6,Arsenal,3,"Bjorn Kuipers",99%,6
+58,Barcelona,2,Liverpool,1,"Cüneyt Çakır",67%,6
+59,"West Ham United",0,"Manchester United",4,"Jonas Eriksson",66%,6
+52,"Bayern de Múnich",4,Napoli,3,"Viktor Kassaï",83%,6
+54,"Paris saint-germain",5,"Inter de Milán",3,"Viktor Kassaï",75%,6
+55,"Olympique De Marseille",0,Juventus,5,"Viktor Kassaï",78%,6
+56,"Atlético de Madrid",1,"Sevilla FC",2,"Viktor Kassaï",71%,6
+44,Juventus,3,Leverkusen,2,"Bjorn Kuipers",85%,5
+46,Chelsea,1,"Olympique De Marseille",3,"Bjorn Kuipers",67%,5
+48,"Manchester United",1,"Real Madrid",2,"Bjorn Kuipers",75%,5
+43,"Inter de Milán",2,"Bayern de Múnich",5,"Mark Geiger",78%,5
+47,Liverpool,6,"Atlético de Madrid",2,"Mark Geiger",80%,5
+41,"Tottenham Hotspur",1,Napoli,0,"Martin Atkinson",78%,5
+49,Arsenal,3,Barcelona,5,"Martin Atkinson",85%,5
+50,"Manchester City",6,"West Ham United",0,"Martin Atkinson",81%,5
+42,"AC Milán",3,"Borussia Dortmund",1,"Viktor Kassaï",99%,5
+45,"Sevilla FC",2,"Paris saint-germain",5,"Viktor Kassaï",66%,5
+34,"Bayern de Múnich",4,"Sevilla FC",3,"Antonio Miguel Mateu Lahoz",78%,4
+37,"Olympique De Marseille",4,"Manchester United",2,"Antonio Miguel Mateu Lahoz",80%,4
+39,"Real Madrid",2,"Manchester City",0,"Antonio Miguel Mateu Lahoz",71%,4
+35,Leverkusen,2,Chelsea,1,"Cüneyt Çakır",84%,4
+31,"AC Milán",1,"Tottenham Hotspur",0,"Mark Geiger",75%,4
+36,"Paris saint-germain",0,Liverpool,0,"Mark Geiger",86%,4
+33,"Borussia Dortmund",0,Juventus,2,"Martin Atkinson",82%,4
+32,Napoli,0,"Inter de Milán",3,"Néstor Pitana",86%,4
+38,"Atlético de Madrid",2,Arsenal,3,"Néstor Pitana",87%,4
+40,Barcelona,1,"West Ham United",2,"Viktor Kassaï",84%,4
+30,Barcelona,3,"Real Madrid",0,"Cüneyt Çakır",95%,3
+21,"Tottenham Hotspur",2,"Inter de Milán",3,"Damir Skomina",76%,3
+23,"Sevilla FC",0,Napoli,2,"Damir Skomina",92%,3
+25,Liverpool,1,"Bayern de Múnich",0,"Damir Skomina",82%,3
+29,"West Ham United",2,"Atlético de Madrid",1,"Jonas Eriksson",71%,3
+26,"Manchester United",1,Leverkusen,2,"Mark Geiger",83%,3
+24,Chelsea,0,"Borussia Dortmund",3,"Martin Atkinson",76%,3
+27,Arsenal,0,"Paris saint-germain",5,"Martin Atkinson",81%,3
+22,Juventus,3,"AC Milán",1,"Néstor Pitana",79%,3
+28,"Manchester City",5,"Olympique De Marseille",2,"Viktor Kassaï",92%,3
+14,Napoli,1,Liverpool,4,"Bjorn Kuipers",96%,2
+18,"Paris saint-germain",5,"West Ham United",2,"Cüneyt Çakır",73%,2
+15,"Borussia Dortmund",2,"Manchester United",2,"Damir Skomina",78%,2
+16,"Bayern de Múnich",1,Arsenal,3,"Damir Skomina",86%,2
+17,Leverkusen,2,"Manchester City",6,"Damir Skomina",83%,2
+19,"Olympique De Marseille",1,Barcelona,0,"Damir Skomina",73%,2
+11,Juventus,3,"Tottenham Hotspur",4,"Martin Atkinson",70%,2
+13,"AC Milán",1,Chelsea,0,"Martin Atkinson",71%,2
+12,"Inter de Milán",1,"Sevilla FC",1,"Viktor Kassaï",79%,2
+20,"Atlético de Madrid",0,"Real Madrid",3,"Viktor Kassaï",94%,2
+2,Chelsea,0,Juventus,3,"Antonio Miguel Mateu Lahoz",82%,1
+4,"Manchester United",1,"AC Milán",2,"Antonio Miguel Mateu Lahoz",81%,1
+10,"Atlético de Madrid",3,"Olympique De Marseille",0,"Antonio Miguel Mateu Lahoz",65%,1
+9,"Real Madrid",3,"Paris saint-germain",2,"Bjorn Kuipers",94%,1
+3,Liverpool,1,"Inter de Milán",2,"Cüneyt Çakır",76%,1
+1,"Tottenham Hotspur",2,"Sevilla FC",1,"Damir Skomina",97%,1
+7,"West Ham United",1,"Bayern de Múnich",5,"Damir Skomina",72%,1
+6,"Manchester City",3,"Borussia Dortmund",1,"Jonas Eriksson",69%,1
+5,Arsenal,1,Napoli,2,"Mark Geiger",95%,1
+8,Barcelona,4,Leverkusen,0,"Néstor Pitana",81%,1

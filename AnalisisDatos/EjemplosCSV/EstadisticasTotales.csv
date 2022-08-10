@@ -1,0 +1,503 @@
+nombre,goles,asistencias,amarillas,rojas,vecesTitular,partidosTotales,posicion,valor,club,id
+"Robert Lewandowski",26,2,3,2,17,22,Delantero,119500000,"Bayern de Múnich",510
+"Philip Foden",23,3,2,0,15,18,Delantero,94500000,"Manchester City",174
+"Alexandre Lacazette",18,2,7,1,17,26,Delantero,30000000,Arsenal,144
+"Christian Pulisic",18,1,4,1,12,18,Delantero,49000000,Chelsea,47
+"Jude Victor William Bellingham",17,4,1,0,23,26,Centrocampista,64000000,"Borussia Dortmund",473
+"Mohamed Salah Ghaly",17,3,2,1,15,20,Delantero,129000000,Liverpool,76
+"João Félix Sequeira",17,2,4,0,19,22,Delantero,82000000,"Atlético de Madrid",309
+"Arkadiusz Krystian Milik",17,0,3,2,14,17,Delantero,19000000,"Olympique De Marseille",601
+"Ferran Torres García",16,4,3,1,13,22,Delantero,58500000,Barcelona,239
+"Karim Benzema",16,3,5,1,15,19,Delantero,84000000,"Real Madrid",272
+"Jadon Sancho",16,3,5,0,17,24,Delantero,78500000,"Manchester United",110
+"Rafael Alexandre Conceição Leão",16,2,4,0,15,21,Delantero,68500000,"AC Milán",423
+"Lionel Andrés Messi Cuccittini",16,1,0,1,13,21,Delantero,69500000,"Paris saint-germain",568
+"Joshua Walter Kimmich",15,4,4,0,20,21,Centrocampista,108000000,"Bayern de Múnich",505
+"Memphis Depay",15,2,2,2,12,17,Delantero,58500000,Barcelona,241
+"Kylian Mbappé Lottin",15,2,0,0,16,18,Delantero,194000000,"Paris saint-germain",569
+"Erling Braut Haaland",14,6,2,0,15,22,Delantero,143500000,"Borussia Dortmund",477
+"Sadio Mané",14,4,4,1,18,23,Delantero,101000000,Liverpool,77
+"Harry Kane",14,3,3,1,13,17,Delantero,112000000,"Tottenham Hotspur",10
+"Paulo Bruno Exequiel Dybala",14,2,2,0,13,17,Delantero,86500000,Juventus,371
+"Sonny Perkins",13,1,4,1,9,22,Delantero,400000,"West Ham United",218
+"Fábio Henrique Tavares",13,1,3,1,20,22,Centrocampista,81500000,Liverpool,72
+"Patrik Schick",13,1,3,0,17,21,Delantero,46000000,Leverkusen,541
+"Neymar da Silva Santos Júnior",12,4,3,1,12,20,Delantero,117500000,"Paris saint-germain",570
+"Victor James Osimhen",12,1,1,0,12,21,Delantero,49500000,Napoli,452
+"Bukayo Saka",11,9,1,0,17,17,Centrocampista,59500000,Arsenal,138
+"Marcos Llorente Moreno",11,8,3,0,19,22,Centrocampista,63000000,"Atlético de Madrid",298
+"Manuel Locatelli",11,3,1,0,22,22,Centrocampista,40000000,Juventus,368
+"Edward Nketiah",11,1,5,1,10,20,Delantero,4800000,Arsenal,143
+"Lucas Nicolás Alario",11,1,3,1,10,15,Delantero,11000000,Leverkusen,542
+"Youssef En-Nesyri",11,1,3,0,16,18,Delantero,44000000,"Sevilla FC",349
+"Alejandro Darío Gómez",10,4,7,2,21,23,Centrocampista,26500000,"Sevilla FC",340
+"Steffen Tigges",10,2,3,0,8,18,Delantero,1900000,"Borussia Dortmund",491
+"Romelu Lukaku Menama",10,2,2,1,17,20,Delantero,69500000,Chelsea,45
+"Raheem Sterling",10,1,2,1,11,15,Delantero,87000000,"Manchester City",177
+"Michail Antonio",10,0,6,0,18,23,Delantero,18000000,"West Ham United",208
+"Dejan Kulusevski",10,0,1,1,16,19,Delantero,34000000,"Tottenham Hotspur",9
+"Rúben dos Santos Gato Alves Dias",9,3,8,3,20,21,Defensa,111500000,"Manchester City",168
+"N'Golo Kanté",9,3,0,1,17,19,Centrocampista,100000000,Chelsea,40
+"Lautaro Javier Martínez",9,2,3,0,17,24,Delantero,78000000,"Inter de Milán",400
+"Lorenzo Insigne",9,1,3,1,12,19,Delantero,52000000,Napoli,453
+"Mattéo Elias Kenzo Guendouzi Olié",9,1,3,0,24,24,Centrocampista,33500000,"Olympique De Marseille",598
+"Carlos Joaquín Correa",9,1,0,0,11,20,Delantero,31000000,"Inter de Milán",409
+"Kayky da Silva Chagas",9,0,0,0,2,13,Delantero,2700000,"Manchester City",192
+"손흥민 孙兴慜",8,2,3,1,18,19,Delantero,104000000,"Tottenham Hotspur",11
+"Riyad Mahrez",8,1,4,0,13,22,Delantero,65500000,"Manchester City",178
+"Matteo Politano",8,1,3,0,10,22,Delantero,27500000,Napoli,451
+"Cengiz Ünder",8,1,2,0,12,20,Delantero,24000000,"Olympique De Marseille",600
+"Rodrygo Silva de Goes",8,1,2,0,12,18,Delantero,42000000,"Real Madrid",273
+"Emile Smith Rowe",8,1,0,2,23,25,Centrocampista,42000000,Arsenal,141
+"Vinícius José Paixão de Oliveira Júnior",8,0,2,1,17,20,Delantero,83500000,"Real Madrid",274
+"Ángel Fabián Di María Hernández",8,0,2,0,6,17,Delantero,33500000,"Paris saint-germain",571
+"Jack Grealish",8,0,0,0,7,15,Delantero,50500000,"Manchester City",176
+"Carlos Henrique Venancio Casimiro",7,8,3,0,19,23,Centrocampista,88000000,"Real Madrid",269
+"Declan Rice",7,7,4,0,25,25,Centrocampista,51000000,"West Ham United",204
+"Sandro Tonali",7,6,2,0,19,19,Centrocampista,64500000,"AC Milán",420
+"Diogo José Teixeira da Silva",7,2,0,2,6,16,Delantero,78000000,Liverpool,75
+"Alphonso Boyle Davies",7,1,8,2,19,19,Defensa,58500000,"Bayern de Múnich",504
+"Jean-Eric Maxim Choupo-Moting",7,1,1,0,13,21,Delantero,4600000,"Bayern de Múnich",511
+"Ante Rebić",7,0,2,0,14,20,Delantero,27500000,"AC Milán",427
+"Hakim Ziyech",7,0,2,0,13,17,Delantero,36500000,Chelsea,46
+"Donyell Malen",6,5,2,0,17,22,Delantero,28500000,"Borussia Dortmund",478
+"Bruno Miguel Borges Fernandes",6,3,6,0,20,23,Centrocampista,94000000,"Manchester United",107
+"Éder Gabriel Militão",6,1,7,3,19,21,Defensa,67500000,"Real Madrid",266
+"Edin Džeko",6,0,4,1,12,18,Delantero,18000000,"Inter de Milán",399
+"Hirving Rodrigo Lozano Bahena",6,0,4,0,13,18,Delantero,31000000,Napoli,455
+"Antoine Griezmann",6,0,2,0,14,18,Delantero,53000000,"Atlético de Madrid",306
+"Felipe Salvador Caicedo Corozo",6,0,2,0,2,16,Delantero,6000000,"Inter de Milán",408
+"Gabriel Fernando de Jesus",6,0,2,0,5,16,Delantero,49500000,"Manchester City",175
+"Moise Bioty Kean",6,0,0,0,9,16,Delantero,39500000,Juventus,374
+"Leon Christoph Goretzka",5,13,2,0,20,21,Centrocampista,107000000,"Bayern de Múnich",506
+"Bernardo Mota Veiga de Carvalho e Silva",5,10,1,1,22,23,Centrocampista,94000000,"Manchester City",173
+"Frenkie de Jong",5,8,4,0,24,25,Centrocampista,119500000,Barcelona,237
+"Rodrigo Hernández Cascante",5,7,3,1,22,22,Centrocampista,90000000,"Manchester City",171
+"Franck Yannick Kessié",5,5,2,1,20,23,Centrocampista,49500000,"AC Milán",421
+"Dušan Vlahović",5,4,5,0,14,19,Delantero,74500000,Juventus,373
+"Moussa Diaby",5,3,3,0,19,22,Centrocampista,56000000,Leverkusen,539
+"Denis Lemi Zakaria Lako Lado",5,3,2,0,21,23,Centrocampista,35500000,Juventus,369
+"Joan Jordán Moreno",5,3,2,0,21,23,Centrocampista,24500000,"Sevilla FC",336
+"Sardar Azmoun",5,2,1,0,12,18,Delantero,25000000,Leverkusen,540
+"Theo Bernard François Hernández",5,1,8,1,24,24,Defensa,59500000,"AC Milán",419
+"Malik Tillman",5,1,4,0,13,22,Delantero,1500000,"Bayern de Múnich",525
+"Alexis Jesse Saelemaekers",5,1,2,0,15,20,Delantero,15500000,"AC Milán",428
+"Cristian Gabriel Romero",5,0,7,5,16,17,Defensa,41500000,"Tottenham Hotspur",3
+"Anthony David Junior Elanga",5,0,2,1,7,16,Delantero,5500000,"Manchester United",108
+"Gabriel Vidovic",5,0,1,1,5,21,Delantero,625000,"Bayern de Múnich",528
+"Junior Walter Messias",5,0,1,0,8,15,Delantero,13500000,"AC Milán",422
+"Lucas Copado",5,0,1,0,6,19,Delantero,625000,"Bayern de Múnich",524
+"Alexis Alejandro Sánchez Sánchez",5,0,1,0,8,18,Delantero,17000000,"Inter de Milán",401
+"Eden Michael Hazard",5,0,1,0,4,16,Delantero,40500000,"Real Madrid",275
+"Marco Verratti",4,6,2,1,18,18,Centrocampista,79500000,"Paris saint-germain",566
+"Pedro González López",4,5,4,0,22,22,Centrocampista,88500000,Barcelona,238
+"Luis Alberto Suárez Díaz",4,2,3,2,6,16,Delantero,33000000,"Atlético de Madrid",307
+"Marco Asensio Willemsen",4,2,1,0,12,18,Delantero,43500000,"Real Madrid",276
+"Fabián Ruiz Peña",4,1,1,1,22,22,Centrocampista,38000000,Napoli,449
+"Marcus Rashford",4,1,0,0,11,19,Delantero,43500000,"Manchester United",111
+"José María Giménez de Vargas",4,0,7,1,23,23,Defensa,49000000,"Atlético de Madrid",300
+"Ferland Mendy",4,0,7,1,21,21,Defensa,43500000,"Real Madrid",268
+"Cristiano Ronaldo dos Santos Aveiro",4,0,2,0,9,17,Delantero,45000000,"Manchester United",109
+"Adama Traoré Diarra",4,0,1,1,4,16,Delantero,21000000,Barcelona,244
+"Iker Bravo Solanilla",4,0,0,0,7,17,Delantero,1300000,Leverkusen,555
+"Lucas Rodrigues Moura da Silva",4,0,0,0,5,13,Delantero,26000000,"Tottenham Hotspur",12
+"Kai Lukas Havertz",3,9,1,0,23,23,Centrocampista,85500000,Chelsea,43
+"Kevin De Bruyne",3,8,1,1,16,18,Centrocampista,125500000,"Manchester City",172
+"Martin Ødegaard",3,7,4,0,21,21,Centrocampista,58500000,Arsenal,142
+"Pierre-Emile Kordt Højbjerg",3,7,2,0,23,24,Centrocampista,41000000,"Tottenham Hotspur",8
+"Marco Reus",3,6,0,0,21,23,Centrocampista,43000000,"Borussia Dortmund",476
+"İlkay Gündoğan",3,5,2,0,15,18,Centrocampista,51500000,"Manchester City",179
+"Thiago Alcântara do Nascimento",3,5,1,0,18,19,Centrocampista,65000000,Liverpool,74
+"Lucas Ariel Ocampos",3,3,3,0,13,20,Delantero,33500000,"Sevilla FC",338
+"Piotr Sebastian Zieliński",3,3,1,1,17,19,Centrocampista,35000000,Napoli,450
+"Raphaël Varane",3,2,6,2,21,22,Defensa,51000000,"Manchester United",103
+"Ismaël Bennacer",3,2,3,1,22,23,Centrocampista,33500000,"AC Milán",429
+"João Pedro Cavaco Cancelo",3,1,8,0,23,24,Defensa,96000000,"Manchester City",170
+"Antonio Rüdiger",3,1,6,3,20,20,Defensa,64500000,Chelsea,38
+"Ousmane Dembélé",3,1,1,0,13,17,Delantero,49500000,Barcelona,242
+"Alex Sandro Lobo Silva",3,1,1,0,19,19,Defensa,22000000,Juventus,367
+"Rafael Mir Vicente",3,0,2,0,2,9,Delantero,21500000,"Sevilla FC",342
+"Roberto Firmino Barbosa de Oliveira",3,0,1,0,5,16,Delantero,54000000,Liverpool,78
+"Anthony Martial",3,0,1,0,14,20,Delantero,28500000,"Sevilla FC",339
+"Kaio Jorge Pinto Ramos",3,0,0,1,1,9,Delantero,3300000,Juventus,383
+"Zlatan Ibrahimović",3,0,0,0,1,7,Delantero,12500000,"AC Milán",426
+"Álvaro Borja Morata Martín",3,0,0,0,3,10,Delantero,26500000,Juventus,372
+"Jorge Resurrección Merodio",2,7,3,2,20,21,Centrocampista,52500000,"Atlético de Madrid",305
+"Toni Kroos",2,6,3,1,21,23,Centrocampista,75000000,"Real Madrid",271
+"Matthijs de Ligt",2,3,6,2,21,22,Defensa,71000000,Juventus,365
+"Milan Škriniar",2,3,6,0,22,22,Defensa,70000000,"Inter de Milán",391
+"Adrien Rabiot",2,3,1,0,19,22,Centrocampista,30000000,Juventus,370
+"Federico Santiago Valverde Dipetta",2,3,1,0,15,19,Centrocampista,58000000,"Real Madrid",277
+"Marcos Aoás Corrêa",2,2,10,3,19,21,Defensa,97500000,"Paris saint-germain",562
+"Giovanni Di Lorenzo",2,2,10,0,20,21,Defensa,25000000,Napoli,466
+"Raphaël Adelino José Guerreiro",2,2,8,1,20,21,Defensa,35000000,"Borussia Dortmund",471
+"Jules Koundé",2,2,7,1,22,22,Defensa,53000000,"Sevilla FC",332
+"Trent Alexander-Arnold",2,2,5,1,23,23,Defensa,102500000,Liverpool,68
+"Sergio Busquets i Burgos",2,2,4,1,19,23,Centrocampista,28000000,Barcelona,236
+"Boubacar Bernard Kamara",2,2,4,0,19,23,Centrocampista,31000000,"Olympique De Marseille",597
+"Hakan Çalhanoğlu",2,2,2,0,19,22,Centrocampista,32000000,"Inter de Milán",397
+"Marcos Javier Acuña",2,1,10,0,21,22,Defensa,37000000,"Sevilla FC",334
+"Gabriel dos Santos Magalhães",2,1,6,1,21,25,Defensa,37000000,Arsenal,136
+"William Alain André Gabriel Saliba",2,1,6,1,21,22,Defensa,36000000,"Olympique De Marseille",594
+"Jordi Alba Ramos",2,1,4,2,17,17,Defensa,29000000,Barcelona,235
+"Thomas Partey",2,1,2,0,24,24,Centrocampista,37000000,Arsenal,152
+"Luiz Frello Filho Jorge",2,1,1,0,15,21,Centrocampista,52500000,Chelsea,49
+"Florian Richard Wirtz",2,1,0,0,17,19,Centrocampista,64000000,Leverkusen,552
+"Edmond Fayçal Tapsoba",2,0,11,4,21,21,Defensa,31000000,Leverkusen,534
+"Aaron Wan-Bissaka",2,0,10,0,21,22,Defensa,26500000,"Manchester United",115
+"Eric García Martret",2,0,7,1,14,15,Defensa,24500000,Barcelona,246
+"Kieran Tierney",2,0,6,3,20,22,Defensa,38000000,Arsenal,151
+"Sergio Reguilón Rodríguez",2,0,5,3,19,19,Defensa,26500000,"Tottenham Hotspur",16
+"Issa Diop",2,0,5,0,20,24,Defensa,14500000,"West Ham United",201
+"Juan Guillermo Cuadrado Bello",2,0,4,1,17,17,Defensa,19000000,Juventus,364
+"Luke Shaw",2,0,4,1,23,23,Defensa,35000000,"Manchester United",121
+"Matheus Santos Carneiro Da Cunha",2,0,2,0,1,11,Delantero,28500000,"Atlético de Madrid",318
+"Divock Okoth Origi",2,0,2,0,0,12,Delantero,9000000,Liverpool,88
+"Callum Hudson-Odoi",2,0,1,0,5,20,Delantero,31000000,Chelsea,48
+"Steven Charles Bergwijn",2,0,1,0,4,15,Delantero,29000000,"Tottenham Hotspur",13
+"Dane Pharrell Scarlett",2,0,1,0,1,13,Delantero,1800000,"Tottenham Hotspur",21
+"南野 拓実",2,0,0,0,2,6,Delantero,9000000,Liverpool,90
+"Luka Jović",2,0,0,0,2,12,Delantero,27000000,"Real Madrid",285
+"Leandro Daniel Paredes",1,8,0,1,20,22,Centrocampista,21500000,"Paris saint-germain",591
+"Rodrigo Bentancur Colmán",1,7,2,1,18,21,Centrocampista,25000000,"Tottenham Hotspur",7
+"Marcelo Brozović",1,4,2,1,18,21,Centrocampista,37000000,"Inter de Milán",394
+"Leroy Aziz Sané",1,4,2,0,22,22,Centrocampista,81000000,"Bayern de Múnich",512
+"Eduardo Celmi Camavinga",1,4,2,0,19,24,Centrocampista,37000000,"Real Madrid",278
+"Mario Hermoso Canseco",1,3,5,3,19,20,Defensa,35500000,"Atlético de Madrid",311
+"Kerem Demirbay",1,3,3,0,19,22,Centrocampista,27500000,Leverkusen,537
+"Idrissa Gana Gueye",1,3,3,0,16,19,Centrocampista,21500000,"Paris saint-germain",567
+"Georginio Gregion Emile Wijnaldum",1,3,1,1,17,18,Centrocampista,29000000,"Paris saint-germain",573
+"Kalidou Koulibaly",1,2,7,0,17,18,Defensa,55500000,Napoli,446
+"Julian Brandt",1,2,4,0,19,21,Centrocampista,40500000,"Borussia Dortmund",474
+"Harry Winks",1,2,3,1,14,17,Centrocampista,14000000,"Tottenham Hotspur",14
+"Tiemoué Bakayoko",1,2,2,0,14,19,Centrocampista,7000000,"AC Milán",436
+"Timo Werner",1,2,2,0,9,18,Delantero,48500000,Chelsea,44
+"Tomáš Souček",1,2,0,0,25,25,Centrocampista,34000000,"West Ham United",203
+"Ronald Federico Araújo da Silva",1,1,6,2,21,21,Defensa,57500000,Barcelona,233
+"Robin Everardus Gosens",1,1,5,1,22,23,Defensa,36000000,"Inter de Milán",414
+"Niklas Süle",1,1,5,0,22,22,Defensa,47000000,"Bayern de Múnich",502
+"John Stones",1,1,3,2,19,21,Defensa,41000000,"Manchester City",181
+"Thomas Joseph Delaney",1,1,1,0,20,21,Centrocampista,22000000,"Sevilla FC",335
+"Nicolás González Iglesias",1,1,0,0,14,18,Centrocampista,12000000,Barcelona,249
+"Achraf Hakimi Mouh",1,0,9,1,18,18,Defensa,73000000,"Paris saint-germain",561
+"Daniel Carvajal Ramos",1,0,6,1,18,20,Defensa,37000000,"Real Madrid",279
+"Thomas Lemar",1,0,5,1,19,22,Centrocampista,47500000,"Atlético de Madrid",310
+"Cédric Bakambu",1,0,5,1,15,19,Delantero,10500000,"Olympique De Marseille",603
+"Diego Carlos Santos Silva",1,0,5,0,20,22,Defensa,29000000,"Sevilla FC",333
+"Sergiño Gianni Dest",1,0,3,1,23,26,Defensa,20000000,Barcelona,247
+"Denzel Justus Morris Dumfries",1,0,3,1,18,20,Defensa,29500000,"Inter de Milán",395
+"Edinson Roberto Cavani Gómez",1,0,3,0,12,19,Delantero,15000000,"Manchester United",122
+"David Olatukunbo Alaba",1,0,2,2,15,15,Defensa,45000000,"Real Madrid",267
+"Giuliano Simeone",1,0,2,0,3,16,Delantero,1800000,"Atlético de Madrid",324
+"Marcos Alonso Mendoza",1,0,1,1,12,17,Defensa,18000000,Chelsea,39
+"Virgil van Dijk",1,0,1,1,20,20,Defensa,100000000,Liverpool,70
+"Olivier Giroud",1,0,1,0,4,17,Delantero,12500000,"AC Milán",425
+"Konrad de la Fuente",1,0,1,0,6,12,Delantero,6500000,"Olympique De Marseille",610
+"Ángel Martín Correa",1,0,0,0,10,15,Delantero,43500000,"Atlético de Madrid",308
+"Youssoufa Moukoko",1,0,0,0,12,22,Delantero,3800000,"Borussia Dortmund",487
+"Harvey Vale",1,0,0,0,1,12,Delantero,1300000,Chelsea,60
+"Luis Fernando Díaz Marulanda",1,0,0,0,8,14,Delantero,57500000,Liverpool,87
+"Gareth Frank Bale",1,0,0,0,1,3,Delantero,21500000,"Real Madrid",282
+"Munir El Haddadi Mohamed",1,0,0,0,2,11,Delantero,21000000,"Sevilla FC",351
+"Scott McTominay",0,6,4,1,23,25,Centrocampista,32000000,"Manchester United",105
+"Naby Keïta",0,6,0,0,19,20,Centrocampista,24500000,Liverpool,85
+"Jesús Manuel Corona Ruíz",0,6,0,0,17,19,Centrocampista,26000000,"Sevilla FC",343
+"Jordan Henderson",0,5,2,2,18,18,Centrocampista,30000000,Liverpool,73
+"Gerson Santos da Silva",0,5,2,1,19,22,Centrocampista,20000000,"Olympique De Marseille",599
+"Eljif Elmas",0,5,0,1,20,21,Centrocampista,28500000,Napoli,457
+"Jarrod Bowen",0,5,0,1,24,24,Centrocampista,24000000,"West Ham United",205
+"Paul Pogba",0,4,4,1,21,23,Centrocampista,68000000,"Manchester United",120
+"Mason Mount",0,4,2,0,17,19,Centrocampista,58500000,Chelsea,42
+"Nicolò Barella",0,4,1,1,23,23,Centrocampista,73000000,"Inter de Milán",396
+"Romeo Lavia",0,4,1,1,10,17,Centrocampista,1200000,"Manchester City",190
+"Serge David Gnabry",0,4,0,0,12,17,Centrocampista,60000000,"Bayern de Múnich",507
+"Arthur Henrique Ramos de Oliveira Melo",0,3,4,0,20,22,Centrocampista,33000000,Juventus,375
+"Weston James Earl McKennie",0,3,3,0,10,16,Centrocampista,20500000,Juventus,376
+"Thomas Müller",0,3,2,0,16,19,Centrocampista,66000000,"Bayern de Múnich",509
+"Brahim Abdelkader Díaz",0,3,1,0,17,20,Centrocampista,31500000,"AC Milán",424
+"Harvey David White",0,3,1,0,14,17,Centrocampista,1400000,"Tottenham Hotspur",22
+"Jonathan Tah",0,2,7,1,19,20,Defensa,30500000,Leverkusen,533
+"Aymeric Laporte",0,2,7,0,21,21,Defensa,72500000,"Manchester City",169
+"Fikayo Tomori",0,2,5,0,18,18,Defensa,43500000,"AC Milán",418
+"Ricard Puig Martí",0,2,3,0,11,18,Centrocampista,9500000,Barcelona,257
+"Emre Can",0,2,2,0,17,22,Centrocampista,32000000,"Borussia Dortmund",479
+"Mateo Kovačić",0,2,2,0,14,18,Centrocampista,44500000,Chelsea,41
+"Valentin Rongier",0,2,2,0,19,21,Centrocampista,16500000,"Olympique De Marseille",593
+"Danilo Luís Hélio Pereira",0,2,2,0,14,17,Centrocampista,18000000,"Paris saint-germain",565
+"Oliver Skipp",0,2,1,1,22,23,Centrocampista,19500000,"Tottenham Hotspur",15
+"Saúl Ñíguez Esclápez",0,2,1,0,10,14,Centrocampista,24500000,Chelsea,52
+"Kingsley Junior Coman",0,2,0,1,13,15,Centrocampista,64500000,"Bayern de Múnich",508
+"Rade Krunić",0,2,0,0,7,14,Centrocampista,6000000,"AC Milán",435
+"Jamal Musiala",0,2,0,0,3,5,Centrocampista,37000000,"Bayern de Múnich",515
+"Dimitri Payet",0,2,0,0,13,18,Centrocampista,14500000,"Olympique De Marseille",602
+"Eric Dier",0,1,10,1,18,20,Defensa,21000000,"Tottenham Hotspur",4
+"Manuel Obafemi Akanji",0,1,9,3,19,19,Defensa,34000000,"Borussia Dortmund",469
+"Ibrahima Konaté",0,1,7,2,15,15,Defensa,44500000,Liverpool,82
+"Renan Augusto Lodi dos Santos",0,1,6,2,18,20,Defensa,36500000,"Atlético de Madrid",312
+"Benjamin White",0,1,6,0,20,22,Defensa,32500000,Arsenal,135
+"Duje Ćaleta-Car",0,1,5,1,17,19,Defensa,19000000,"Olympique De Marseille",595
+"Alessio Romagnoli",0,1,5,0,22,22,Defensa,24500000,"AC Milán",430
+"Matías Vecino Falero",0,1,5,0,10,17,Centrocampista,13500000,"Inter de Milán",403
+"Andreas Bødtker Christensen",0,1,4,1,18,19,Defensa,38000000,Chelsea,50
+"Pablo Fornals Malla",0,1,4,0,19,21,Centrocampista,23000000,"West Ham United",206
+"Yannick Ferreira Carrasco",0,1,2,0,17,19,Centrocampista,45000000,"Atlético de Madrid",302
+"Ben Chilwell",0,1,2,0,17,18,Defensa,46000000,Chelsea,56
+"Leonardo Bonucci",0,1,2,0,19,21,Defensa,17500000,Juventus,377
+"Pape Alassane Gueye",0,1,2,0,7,16,Centrocampista,11000000,"Olympique De Marseille",605
+"Luka Modrić",0,1,2,0,8,13,Centrocampista,36500000,"Real Madrid",270
+"Robert Andrich",0,1,1,1,10,16,Centrocampista,18500000,Leverkusen,536
+"Fernando Francisco Reges",0,1,1,1,15,18,Centrocampista,21000000,"Sevilla FC",348
+"Nikola Vlašić",0,1,1,1,23,23,Centrocampista,26500000,"West Ham United",209
+"Granit Xhaka",0,1,1,0,11,14,Centrocampista,15500000,Arsenal,140
+"Pablo Martín Páez Gavira",0,1,1,0,13,16,Centrocampista,24000000,Barcelona,245
+"Charles Mariano Aránguiz Sandoval",0,1,1,0,6,9,Centrocampista,14000000,Leverkusen,543
+"Alex Oxlade-Chamberlain",0,1,1,0,18,22,Centrocampista,15000000,Liverpool,80
+"Ander Herrera Agüera",0,1,1,0,9,15,Centrocampista,17500000,"Paris saint-germain",578
+"Francisco Román Alarcón Suárez",0,1,1,0,7,9,Centrocampista,30000000,"Real Madrid",284
+"Rodrigo Javier De Paul",0,1,0,1,13,19,Centrocampista,41500000,"Atlético de Madrid",303
+"Ivan Perišić",0,1,0,1,20,22,Centrocampista,24000000,"Inter de Milán",398
+"Álvaro Sanz Catalán",0,1,0,0,1,4,Centrocampista,1600000,Barcelona,262
+"Jesse Lingard",0,1,0,0,9,14,Centrocampista,14000000,"Manchester United",113
+"Ivan Rakitić",0,1,0,0,6,14,Centrocampista,18500000,"Sevilla FC",337
+"Jesús Joaquín Fernández Sáez de la Torre",0,1,0,0,6,15,Delantero,22500000,"Sevilla FC",350
+"Alfie Devine",0,1,0,0,2,8,Centrocampista,775000,"Tottenham Hotspur",25
+"Alessandro Bastoni",0,0,10,0,17,19,Defensa,53000000,"Inter de Milán",393
+"Clément Nicolas Laurent Lenglet",0,0,9,0,19,19,Defensa,24500000,Barcelona,253
+"Victor Jörgen Nilsson Lindelöf",0,0,8,0,16,18,Defensa,23000000,"Manchester United",102
+"Andrew Robertson",0,0,7,1,19,19,Defensa,77000000,Liverpool,71
+"Simon Thorup Kjær",0,0,7,0,22,22,Defensa,23500000,"AC Milán",442
+"Pol Mikel Lirola Kosok",0,0,7,0,20,21,Defensa,8500000,"Olympique De Marseille",608
+"Kurt Happy Zouma",0,0,7,0,22,23,Defensa,30000000,"West Ham United",221
+"Jeremie Agyekum Frimpong",0,0,6,3,20,21,Defensa,26500000,Leverkusen,532
+"Vladimír Coufal",0,0,6,2,19,23,Defensa,19000000,"West Ham United",199
+"Stefan de Vrij",0,0,6,1,18,19,Defensa,35500000,"Inter de Milán",392
+"Daniele Rugani",0,0,6,1,14,17,Defensa,11000000,Juventus,382
+"Benjamin Pavard",0,0,6,0,14,16,Defensa,21500000,"Bayern de Múnich",501
+"Mitchel Bakker",0,0,6,0,12,17,Defensa,8500000,Leverkusen,535
+"Oleksandr Zinchenko",0,0,6,0,9,14,Defensa,22000000,"Manchester City",184
+"Faouzi Ghoulam",0,0,6,0,12,15,Defensa,4800000,Napoli,461
+"Mário Rui Silva Duarte",0,0,5,2,19,20,Defensa,9000000,Napoli,447
+"Nuno Albertino Varela Tavares",0,0,5,1,9,21,Defensa,6000000,Arsenal,137
+"Kyle Walker",0,0,5,1,15,17,Defensa,39000000,"Manchester City",167
+"Stefan Savić",0,0,5,0,21,23,Defensa,34500000,"Atlético de Madrid",299
+"César Azpilicueta Tanco",0,0,5,0,19,19,Defensa,25000000,Chelsea,36
+"Daley Sinkgraven",0,0,5,0,4,11,Defensa,4600000,Leverkusen,553
+"Lucas Vázquez Iglesias",0,0,4,2,18,20,Defensa,22000000,"Real Madrid",265
+"Mats Hummels",0,0,4,1,22,22,Defensa,27500000,"Borussia Dortmund",470
+"Joël Andre Job Matip",0,0,4,1,17,19,Defensa,35500000,Liverpool,69
+"Amir Rrahmani",0,0,4,1,21,21,Defensa,18500000,Napoli,445
+"Leonardo Julián Balerdi Rossa",0,0,4,1,21,22,Defensa,10500000,"Olympique De Marseille",624
+"Presnel Kimpembe",0,0,4,1,23,24,Defensa,45500000,"Paris saint-germain",563
+"Thomas Meunier",0,0,4,0,13,17,Defensa,12500000,"Borussia Dortmund",468
+"Reece James",0,0,4,0,20,21,Defensa,49500000,Chelsea,35
+"Nuno Alexandre Tavares Mendes",0,0,4,0,19,20,Defensa,43500000,"Paris saint-germain",564
+"Craig Dawson",0,0,4,0,11,21,Defensa,9500000,"West Ham United",200
+"冨安 健洋",0,0,3,2,12,19,Defensa,27000000,Arsenal,148
+"Harry Maguire",0,0,3,2,15,15,Defensa,24500000,"Manchester United",114
+"Davide Calabria",0,0,3,1,12,15,Defensa,22000000,"AC Milán",416
+"Dayotchanculle Oswald Upamecano",0,0,3,1,18,21,Defensa,42500000,"Bayern de Múnich",516
+"Federico Dimarco",0,0,3,1,12,15,Defensa,14000000,"Inter de Milán",406
+"Piero Martín Hincapié Reyna",0,0,3,1,17,21,Defensa,15000000,Leverkusen,546
+"Gonzalo Ariel Montiel",0,0,3,1,19,19,Defensa,22000000,"Sevilla FC",344
+"Emerson Aparecido Leite de Souza Junior",0,0,3,1,21,21,Defensa,19000000,"Tottenham Hotspur",2
+"Davinson Sánchez Mina",0,0,3,1,16,21,Defensa,18500000,"Tottenham Hotspur",17
+"Aaron Cresswell",0,0,3,1,13,16,Defensa,12500000,"West Ham United",202
+"Omar Tyrell Crawford Richards",0,0,3,0,12,17,Defensa,6000000,"Bayern de Múnich",523
+"Thiago Emiliano da Silva",0,0,3,0,7,8,Defensa,12000000,Chelsea,37
+"Federico Chiesa",0,0,3,0,12,20,Delantero,66500000,Juventus,387
+"Fabio Miretti",0,0,3,0,3,7,Centrocampista,1800000,Juventus,389
+"Joe Gomez",0,0,3,0,12,14,Defensa,35000000,Liverpool,81
+"Sead Kolašinac",0,0,3,0,6,7,Defensa,5000000,"Olympique De Marseille",607
+"Arthur Masuaku",0,0,3,0,6,14,Defensa,5500000,"West Ham United",213
+"Felipe Augusto de Almeida Monteiro",0,0,2,1,15,16,Defensa,23500000,"Atlético de Madrid",315
+"Danilo Luiz da Silva",0,0,2,1,16,17,Defensa,18500000,Juventus,378
+"André-Franck Zambo Anguissa",0,0,2,1,20,22,Centrocampista,23000000,Napoli,448
+"Jamie Bowden",0,0,2,1,5,12,Centrocampista,1100000,"Tottenham Hotspur",33
+"Reinildo Isnard Mandava",0,0,2,0,7,8,Defensa,10000000,"Atlético de Madrid",301
+"Geoffrey Edwin Kondogbia",0,0,2,0,2,4,Centrocampista,17500000,"Atlético de Madrid",304
+"Šime Vrsaljko",0,0,2,0,12,13,Defensa,18500000,"Atlético de Madrid",313
+"Pierre-Emerick Emiliano François Aubameyang",0,0,2,0,7,11,Delantero,43500000,Barcelona,240
+"Anssumane Fati",0,0,2,0,4,15,Delantero,37000000,Barcelona,250
+"Federico Bernardeschi",0,0,2,0,7,12,Centrocampista,18500000,Juventus,388
+"Odilon Kossounou",0,0,2,0,18,20,Defensa,11500000,Leverkusen,547
+"Timothy Evans Fosu-Mensah",0,0,2,0,4,4,Defensa,4500000,Leverkusen,551
+"José Diogo Dalot Teixeira",0,0,2,0,11,14,Defensa,21000000,"Manchester United",101
+"Frederico Rodrigues de Paula Santos",0,0,2,0,16,19,Centrocampista,21000000,"Manchester United",106
+"D'Mani Mellor",0,0,2,0,1,9,Delantero,550000,"Manchester United",130
+"Dries Mertens",0,0,2,0,4,14,Delantero,20500000,Napoli,454
+"Andrea Petagna",0,0,2,0,2,13,Delantero,9500000,Napoli,462
+"Álvaro González Soberón",0,0,2,0,11,17,Defensa,5000000,"Olympique De Marseille",615
+"Sergio Ramos García",0,0,2,0,5,8,Defensa,14500000,"Paris saint-germain",574
+"José Ignacio Fernández Iglesias",0,0,2,0,16,20,Defensa,17500000,"Real Madrid",280
+"Cheikh Ahmadou Bamba Mbacke Dieng",0,0,1,2,5,11,Delantero,6500000,"Olympique De Marseille",604
+"Mauro Emanuel Icardi Rivero",0,0,1,2,0,10,Delantero,18000000,"Paris saint-germain",572
+"Samuel Yves Umtiti",0,0,1,1,5,9,Defensa,16000000,Barcelona,254
+"Dan-Axel Zagadou",0,0,1,1,16,16,Defensa,14500000,"Borussia Dortmund",483
+"Pierre Kazeye Rommel Kalulu Kyatengwa",0,0,1,0,6,11,Defensa,12000000,"AC Milán",417
+"Alessandro Florenzi",0,0,1,0,8,13,Defensa,15000000,"AC Milán",431
+"Daniel Maldini",0,0,1,0,1,2,Centrocampista,1400000,"AC Milán",434
+"Cédric Ricardo Alves Soares",0,0,1,0,4,13,Defensa,4900000,Arsenal,134
+"Gabriel Teodoro Martinelli Silva",0,0,1,0,19,21,Centrocampista,31000000,Arsenal,146
+"Miguel Azeez",0,0,1,0,0,1,Centrocampista,1200000,Arsenal,156
+"Cătălin Cîrjan",0,0,1,0,0,1,Centrocampista,1000000,Arsenal,161
+"Héctor Miguel Herrera López",0,0,1,0,10,13,Centrocampista,21000000,"Atlético de Madrid",316
+"Gerard Piqué Bernabéu",0,0,1,0,1,1,Defensa,13500000,Barcelona,234
+"Luuk de Jong",0,0,1,0,0,2,Delantero,17000000,Barcelona,243
+"Sven Ulreich",0,0,1,0,2,5,Portero,2800000,"Bayern de Múnich",517
+"Giovanni Alejandro Reyna",0,0,1,0,2,6,Centrocampista,22000000,"Borussia Dortmund",485
+"Soumaila Coulibaly",0,0,1,0,1,1,Defensa,1100000,"Borussia Dortmund",486
+"Marin Pongračić",0,0,1,0,15,18,Defensa,7000000,"Borussia Dortmund",489
+"Nnamdi Collins",0,0,1,0,0,1,Defensa,725000,"Borussia Dortmund",492
+"Mateu Jaume Morey Bauzá",0,0,1,0,7,13,Defensa,6500000,"Borussia Dortmund",493
+"Matteo Darmian",0,0,1,0,5,8,Defensa,12500000,"Inter de Milán",404
+"Roberto Gagliardini",0,0,1,0,5,7,Centrocampista,10000000,"Inter de Milán",411
+"Mattia De Sciglio",0,0,1,0,7,11,Defensa,9500000,Juventus,379
+"Matìas Soulé",0,0,1,0,1,8,Delantero,2000000,Juventus,384
+"Exequiel Alejandro Palacios",0,0,1,0,18,19,Centrocampista,21500000,Leverkusen,544
+"Konstantinos Tsimikas",0,0,1,0,6,11,Defensa,13000000,Liverpool,83
+"Curtis Jones",0,0,1,0,5,10,Centrocampista,12500000,Liverpool,86
+"Fernando Luiz Rosa",0,0,1,0,16,17,Centrocampista,5000000,"Manchester City",180
+"Cole Palmer",0,0,1,0,0,3,Delantero,2600000,"Manchester City",186
+"Luke Mbete",0,0,1,0,1,1,Defensa,1000000,"Manchester City",191
+"Stanislav Lobotka",0,0,1,0,15,17,Centrocampista,18500000,Napoli,456
+"Diego Demme",0,0,1,0,12,15,Centrocampista,9000000,Napoli,458
+"Kévin Malcuit",0,0,1,0,3,5,Defensa,3700000,Napoli,463
+"Axel Tuanzebe",0,0,1,0,18,20,Defensa,5500000,Napoli,464
+"Daouda Gueye",0,0,1,0,2,10,Delantero,300000,"Olympique De Marseille",616
+"Aaron Nassur Kamardin",0,0,1,0,2,2,Defensa,650000,"Olympique De Marseille",620
+"Juan Bernat Velasco",0,0,1,0,13,17,Defensa,16000000,"Paris saint-germain",575
+"Abdou Diallo",0,0,1,0,18,20,Defensa,16500000,"Paris saint-germain",576
+"Julian Draxler",0,0,1,0,9,15,Delantero,18500000,"Paris saint-germain",579
+"Xavi Quentin Shay Simons",0,0,1,0,0,6,Delantero,3300000,"Paris saint-germain",582
+"Jesús Navas González",0,0,1,0,16,18,Defensa,13000000,"Sevilla FC",331
+"Hans Carl Ludwig Augustinsson",0,0,1,0,14,17,Defensa,7000000,"Sevilla FC",345
+"Karim Rekik",0,0,1,0,1,5,Defensa,4900000,"Sevilla FC",346
+"Nemanja Gudelj",0,0,1,0,3,8,Centrocampista,15000000,"Sevilla FC",352
+"Matthew James Doherty",0,0,1,0,8,9,Defensa,9500000,"Tottenham Hotspur",20
+"Mohamed Saïd Benrahma",0,0,1,0,13,18,Centrocampista,17000000,"West Ham United",210
+"Jamal Baptiste",0,0,1,0,0,1,Defensa,500000,"West Ham United",220
+"Angelo Obinze Ogbonna",0,0,1,0,15,18,Defensa,10000000,"West Ham United",222
+"Nemanja Matić",0,0,0,2,10,19,Centrocampista,11500000,"Manchester United",112
+"Lucas François Bernard Hernández Pi",0,0,0,1,16,17,Defensa,47000000,"Bayern de Múnich",503
+"Mahmoud Dahoud",0,0,0,1,10,18,Centrocampista,26500000,"Borussia Dortmund",472
+"Mike Maignan",0,0,0,0,18,19,Portero,63000000,"AC Milán",415
+"Anton Ciprian Tătărușanu",0,0,0,0,9,10,Portero,825000,"AC Milán",432
+"Fodé Ballo-Touré",0,0,0,0,1,2,Defensa,3100000,"AC Milán",433
+"Samuel Castillejo Azuaga",0,0,0,0,0,2,Delantero,6000000,"AC Milán",438
+"Aaron Ramsdale",0,0,0,0,20,22,Portero,31000000,Arsenal,133
+"Albert-Mboyo Sambi Lokonga",0,0,0,0,1,1,Centrocampista,12500000,Arsenal,139
+"Nicolas Pépé",0,0,0,0,15,18,Centrocampista,25000000,Arsenal,145
+"Mohamed Naser Elsayed Elneny",0,0,0,0,1,1,Centrocampista,6500000,Arsenal,147
+"Rob Holding",0,0,0,0,20,24,Defensa,11500000,Arsenal,149
+"Bernd Leno",0,0,0,0,7,13,Portero,17500000,Arsenal,150
+"Charlie Patino",0,0,0,0,1,1,Centrocampista,1800000,Arsenal,154
+"Joel Ideho",0,0,0,0,1,1,Centrocampista,1000000,Arsenal,158
+"Joel López Salguero",0,0,0,0,2,3,Defensa,825000,Arsenal,160
+"Zane Monlouis",0,0,0,0,0,1,Defensa,525000,Arsenal,162
+"Ben Cottrell",0,0,0,0,1,1,Centrocampista,525000,Arsenal,164
+"Jan Oblak",0,0,0,0,20,20,Portero,88000000,"Atlético de Madrid",297
+"Benjamin Lecomte",0,0,0,0,6,8,Portero,11500000,"Atlético de Madrid",314
+"Daniel Wass",0,0,0,0,0,1,Centrocampista,16500000,"Atlético de Madrid",317
+"Alejandro Iturbe Encabo",0,0,0,0,1,1,Portero,1600000,"Atlético de Madrid",322
+"Francisco Manuel Gonzalez Verjara",0,0,0,0,2,2,Defensa,1200000,"Atlético de Madrid",325
+"Carlos Martín Domínguez",0,0,0,0,0,5,Delantero,1000000,"Atlético de Madrid",326
+"Marc-André ter Stegen",0,0,0,0,20,20,Portero,70000000,Barcelona,231
+"Norberto Murara Neto",0,0,0,0,5,7,Portero,13500000,Barcelona,248
+"Sergio Roberto Carnicer",0,0,0,0,13,15,Defensa,18500000,Barcelona,252
+"Arnau Tenas Ureña",0,0,0,0,2,2,Portero,2100000,Barcelona,261
+"Manuel Peter Neuer",0,0,0,0,24,24,Portero,13500000,"Bayern de Múnich",500
+"Josip Stanišić",0,0,0,0,1,1,Defensa,3400000,"Bayern de Múnich",520
+"Christian Früchtl",0,0,0,0,1,1,Portero,1700000,"Bayern de Múnich",521
+"Tanguy-Austin Nianzou Kouassi",0,0,0,0,8,10,Defensa,5000000,"Bayern de Múnich",522
+"Gregor Kobel",0,0,0,0,18,18,Portero,37000000,"Borussia Dortmund",467
+"Thorgan Ganael Francis Hazard",0,0,0,0,10,16,Centrocampista,26000000,"Borussia Dortmund",475
+"Axel Laurent Angel Lambert Witsel",0,0,0,0,1,2,Centrocampista,14000000,"Borussia Dortmund",480
+"Marwin Hitz",0,0,0,0,2,2,Portero,4600000,"Borussia Dortmund",484
+"Nico Schulz",0,0,0,0,2,3,Defensa,5000000,"Borussia Dortmund",490
+"Roman Bürki",0,0,0,0,7,9,Portero,11500000,"Borussia Dortmund",495
+"Édouard Mendy",0,0,0,0,21,21,Portero,52000000,Chelsea,34
+"Kepa Arrizabalaga Revuelta",0,0,0,0,4,4,Portero,21000000,Chelsea,51
+"Trevoh Chalobah",0,0,0,0,1,3,Defensa,11000000,Chelsea,53
+"Marcus Bettinelli",0,0,0,0,1,1,Portero,1400000,Chelsea,58
+"Lucas Bergström",0,0,0,0,1,1,Portero,325000,Chelsea,59
+"Josh Brooking",0,0,0,0,1,1,Defensa,650000,Chelsea,64
+"Robert Kenedy Nunes do Nascimento",0,0,0,0,2,6,Centrocampista,12500000,Chelsea,66
+"Samir Handanovič",0,0,0,0,7,7,Portero,6000000,"Inter de Milán",390
+"Arturo Erasmo Vidal Pardo",0,0,0,0,9,15,Centrocampista,12000000,"Inter de Milán",402
+"Danilo D'Ambrosio",0,0,0,0,2,2,Defensa,9000000,"Inter de Milán",405
+"Ionuț Andrei Radu",0,0,0,0,20,20,Portero,6000000,"Inter de Milán",407
+"Wojciech Tomasz Szczęsny",0,0,0,0,17,17,Portero,36000000,Juventus,363
+"Giorgio Chiellini",0,0,0,0,2,2,Defensa,9500000,Juventus,366
+"Mattia Perin",0,0,0,0,8,10,Portero,16500000,Juventus,380
+"Carlo Pinsoglio",0,0,0,0,2,2,Portero,1200000,Juventus,385
+"Lukáš Hrádecký",0,0,0,0,18,19,Portero,19000000,Leverkusen,531
+"Karim Bellarabi",0,0,0,0,10,14,Centrocampista,14500000,Leverkusen,538
+"Paulo Henrique Sampaio Filho",0,0,0,0,0,1,Centrocampista,8500000,Leverkusen,545
+"Andrey Lunev",0,0,0,0,7,10,Portero,7000000,Leverkusen,548
+"Amine Adli",0,0,0,0,9,18,Delantero,9500000,Leverkusen,550
+"Zidan Sertdemir",0,0,0,0,1,1,Centrocampista,1200000,Leverkusen,554
+"Niklas Lomb",0,0,0,0,2,2,Portero,650000,Leverkusen,556
+"Alisson Ramsés Becker",0,0,0,0,18,18,Portero,82000000,Liverpool,67
+"James Philip Milner",0,0,0,0,1,1,Centrocampista,5500000,Liverpool,79
+"Caoimhin Kelleher",0,0,0,0,9,10,Portero,5500000,Liverpool,84
+"Harvey Elliott",0,0,0,0,4,8,Centrocampista,7000000,Liverpool,89
+"Rhys Williams",0,0,0,0,0,1,Defensa,1600000,Liverpool,92
+"Conor Bradley",0,0,0,0,1,1,Defensa,600000,Liverpool,97
+"Ederson Santana de Moraes",0,0,0,0,18,18,Portero,94000000,"Manchester City",166
+"Nathan Aké",0,0,0,0,4,6,Defensa,16500000,"Manchester City",182
+"Zack Steffen",0,0,0,0,9,10,Portero,15000000,"Manchester City",183
+"James McAtee",0,0,0,0,2,5,Centrocampista,1100000,"Manchester City",187
+"Liam Delap",0,0,0,0,0,1,Delantero,1600000,"Manchester City",188
+"CJ Egan-Riley",0,0,0,0,1,1,Defensa,550000,"Manchester City",193
+"Alex Robertson",0,0,0,0,1,1,Centrocampista,550000,"Manchester City",197
+"David De Gea Quintana",0,0,0,0,16,16,Portero,53000000,"Manchester United",100
+"Alex Nicolao Telles",0,0,0,0,5,7,Defensa,19000000,"Manchester United",104
+"Dean Henderson",0,0,0,0,10,10,Portero,24000000,"Manchester United",117
+"Juan Manuel Mata García",0,0,0,0,1,2,Centrocampista,4700000,"Manchester United",118
+"Eric Bertrand Bailly",0,0,0,0,1,1,Defensa,10500000,"Manchester United",119
+"Tom Heaton",0,0,0,0,1,1,Portero,625000,"Manchester United",123
+"David Ospina Ramírez",0,0,0,0,9,10,Portero,7000000,Napoli,443
+"Juan Guilherme Nunes Jesus",0,0,0,0,1,1,Defensa,3500000,Napoli,459
+"Alex Meret",0,0,0,0,18,18,Portero,15000000,Napoli,460
+"Adam Mohamed Ounas",0,0,0,0,0,6,Delantero,4200000,Napoli,465
+"Pau López Sabata",0,0,0,0,21,21,Portero,17500000,"Olympique De Marseille",592
+"Luan Peres Petroni",0,0,0,0,12,19,Defensa,8000000,"Olympique De Marseille",596
+"Amine Harit",0,0,0,0,4,5,Centrocampista,7500000,"Olympique De Marseille",606
+"Steve Mandanda",0,0,0,0,6,8,Portero,1900000,"Olympique De Marseille",609
+"Luis Henrique Tomaz de Lima",0,0,0,0,0,1,Centrocampista,4200000,"Olympique De Marseille",611
+"Paolo Sciortino",0,0,0,0,1,1,Centrocampista,700000,"Olympique De Marseille",622
+"Gianluigi Donnarumma",0,0,0,0,22,22,Portero,106000000,"Paris saint-germain",560
+"Keylor Navas Gamboa",0,0,0,0,3,3,Portero,15500000,"Paris saint-germain",577
+"Jan Thilo Kehrer",0,0,0,0,2,2,Defensa,9000000,"Paris saint-germain",580
+"Eric Junior Dina Ebimbe",0,0,0,0,3,4,Centrocampista,3700000,"Paris saint-germain",583
+"Édouard Michut",0,0,0,0,0,1,Centrocampista,2200000,"Paris saint-germain",584
+"Denis Franchi",0,0,0,0,2,2,Portero,675000,"Paris saint-germain",587
+"Thibaut Nicolas Marc Courtois",0,0,0,0,19,19,Portero,79000000,"Real Madrid",264
+"Andriy Lunin",0,0,0,0,6,7,Portero,8000000,"Real Madrid",281
+"Marcelo Vieira da Silva Júnior",0,0,0,0,4,4,Defensa,9000000,"Real Madrid",283
+"Daniel Ceballos Fernández",0,0,0,0,3,6,Centrocampista,14500000,"Real Madrid",286
+"Jesús Vallejo Lázaro",0,0,0,0,3,4,Defensa,7000000,"Real Madrid",288
+"Antonio Blanco Conde",0,0,0,0,0,1,Centrocampista,4500000,"Real Madrid",289
+"Vinícius Tobías da Silva",0,0,0,0,1,1,Defensa,1700000,"Real Madrid",293
+"Toni Fuidias Ribera",0,0,0,0,2,2,Portero,1000000,"Real Madrid",296
+"Yassine Bounou",0,0,0,0,16,17,Portero,20500000,"Sevilla FC",330
+"Erik Lamela",0,0,0,0,0,3,Delantero,14000000,"Sevilla FC",341
+"Marko Dmitrović",0,0,0,0,10,12,Portero,16000000,"Sevilla FC",347
+"Óliver Torres Muñoz",0,0,0,0,1,1,Centrocampista,12500000,"Sevilla FC",353
+"Javier Díaz Sánchez",0,0,0,0,1,1,Portero,925000,"Sevilla FC",354
+"Hugo Lloris",0,0,0,0,6,7,Portero,13500000,"Tottenham Hotspur",1
+"Kouassi Ryan Sessegnon",0,0,0,0,15,19,Defensa,12000000,"Tottenham Hotspur",6
+"Pierluigi Gollini",0,0,0,0,18,18,Portero,14000000,"Tottenham Hotspur",18
+"Japhet Tanganga",0,0,0,0,1,2,Defensa,9000000,"Tottenham Hotspur",24
+"Brandon Anthony Austin",0,0,0,0,3,3,Portero,1100000,"Tottenham Hotspur",27
+"J'Neil Lloyd-Bennett",0,0,0,0,1,4,Delantero,1500000,"Tottenham Hotspur",28
+"Łukasz Fabiański",0,0,0,0,8,15,Portero,3400000,"West Ham United",198
+"Manuel Lanzini",0,0,0,0,4,10,Centrocampista,14000000,"West Ham United",207
+"Benjamin Johnson",0,0,0,0,2,5,Defensa,5000000,"West Ham United",214
+"Alphonse Areola",0,0,0,0,17,18,Portero,22000000,"West Ham United",215
+"Ryan Fredericks",0,0,0,0,0,3,Defensa,5000000,"West Ham United",216
+"Alex Král",0,0,0,0,1,1,Centrocampista,8000000,"West Ham United",217
+"Darren Randolph",0,0,0,0,1,1,Portero,725000,"West Ham United",223
+"David Edward Martin",0,0,0,0,1,1,Portero,60000,"West Ham United",224
+"Pierre-Emmanuel Ekwah Elimby",0,0,0,0,0,2,Centrocampista,500000,"West Ham United",226
+"Amadou Diallo",0,0,0,0,1,1,Centrocampista,325000,"West Ham United",230
