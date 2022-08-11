@@ -31,6 +31,19 @@ dataframe = pd.read_csv('AnalisisDatos\EjemplosCSV\dataframeutf8.csv')
 # print(dataframe[["Edad","Automovil"]])
 
 
+# Saber los tipos de datos del dataframe
+print(dataframe.dtypes)
+
+
+# Modificar el tipo de dato del tataframe:
+    # Por ejemplo cambiar a tipo datetime:
+dataframe['fecha'] = pd.to_datetime(dataframe['fecha'], format='%d/%m/%Y')
+
+
+
+
+
+
 # READ_CSV:
 dataframe = pd.read_csv('AnalisisDatos\EjemplosCSV\partidos.csv')
 # print(csv)

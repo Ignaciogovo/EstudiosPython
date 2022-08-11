@@ -1,0 +1,28 @@
+local,total,termino
+"Inter de Milán",2,empatados
+"Manchester United",2,empatados
+"Borussia Dortmund",1,empatados
+"Tottenham Hotspur",1,empatados
+"AC Milán",6,ganados
+"Tottenham Hotspur",3,ganados
+"Sevilla FC",3,ganados
+"Olympique De Marseille",3,ganados
+"Manchester United",2,ganados
+"Borussia Dortmund",2,ganados
+Juventus,2,ganados
+"West Ham United",2,ganados
+"Inter de Milán",1,ganados
+Arsenal,1,ganados
+Leverkusen,1,ganados
+Napoli,7,perdidos
+"Olympique De Marseille",6,perdidos
+"West Ham United",6,perdidos
+Arsenal,5,perdidos
+"Sevilla FC",5,perdidos
+"Inter de Milán",5,perdidos
+"Tottenham Hotspur",4,perdidos
+Juventus,3,perdidos
+"Manchester United",3,perdidos
+"Borussia Dortmund",2,perdidos
+Leverkusen,2,perdidos
+"AC Milán",1,perdidos
