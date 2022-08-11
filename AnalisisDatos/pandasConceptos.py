@@ -93,6 +93,7 @@ print(dataframe.sort_values(by=['goles_local','jornada'],ascending=False).head()
 # Filtrar por condiciones:
 print(dataframe[dataframe.visitante == 'Arsenal'])
 print(dataframe[(dataframe.visitante == 'Arsenal') & (dataframe.goles_local >=4)])
+print(dataframe[(dataframe.visitante == 'Arsenal')| (dataframe.visitante == 'Leverkusen')& (dataframe.goles_local >=3)])
 
 
 # Filtrar por str:
@@ -143,3 +144,7 @@ print(local)
 # Usando esta version haría un max min y count de todas las columnas no agrupadas
 # local=dataframe.groupby(['local','aforo']).agg(['min', 'max','count'])
 # print(local)
+
+
+
+
