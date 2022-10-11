@@ -18,7 +18,15 @@ tamaño = len(mensaje)
 # Encontrar:
 mensaje1 = mensaje.find("mundo") #Devuelve la posicion en la que empieza la subcadena.
     #Si no lo encuentra el valor es: -1
-
+    # Encontrar empezando por atras
+mensaje1 = mensaje.rfind("mundo") # Empieza a contar desde el final de los caracteres
+# Encontrar con find:
+s = 'python is fun'
+lista = []
+for pos,char in enumerate(s):
+    if(char == 'n'):
+        lista.append(pos)
+print(lista)
 mensaje2 = mensaje.count("a") #Devuelve la posicion de la subcadena
 mensaje2 = mensaje.count("a",1,5) # Empieza a buscar desde la primera posicion hasta la quinta.
 

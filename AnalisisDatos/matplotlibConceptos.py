@@ -1,3 +1,5 @@
+from re import X
+from tkinter import Y
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as pa
 import pandas as pd
@@ -42,3 +44,25 @@ centroClub.plot(linestyle = "-.", path_effects = [pa.SimpleLineShadow(),pa.Norma
 # Añadir titulo a la x:
 centroClub.set_xlabel("Equipos")
  # Añadiendo el plot a otras variables se Juntaran mas datos
+
+ # Matplotlib sin pandas
+
+plt.title("Titulo")
+plt.xlabel("Titulo x")
+plt.ylabel("Titulo y")
+x = (4,8,13,17,20)
+y = (54, 67, 98, 78, 45)
+
+plt.scatter(x,y)
+x = [2,4,6,7,9,13,19,26,29,31,36,40,48,51,57,67,69,71,78,88]
+y = [54,72,43,2,8,98,109,5,35,28,48,83,94,84,73,11,464,75,200,54]
+plt.scatter(x,y)
+plt.show()
+
+# Modificar el tamaño de los numeros referenciados en los ejes
+plt.xticks(range(120, 180, 10))
+plt.yticks(range(120, 180, 10))
+
+
+# Juntar varios diagramas en una misma imagen:
+"https://www.delftstack.com/es/howto/matplotlib/stack-bar-plots-matplotlib/"

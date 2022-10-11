@@ -1,0 +1,20 @@
+# sys es una libreria predeterminada, se usa para distintas situaciones:
+
+
+# Parametros:
+    import sys
+    # Ejecutamos un archivo: python archivo.py 1
+    
+    print("This is the name of the program:", sys.argv[0])
+    print("Primer argumento", sys.argv[1])
+    print("Number of elements:", len(sys.argv))
+    print("List of Arguments:", str(sys.argv))
+    print("Number of elements excluding the name of the program:", (len(sys.argv)-1))
+
+
+# TERMINAL PROGRAMA:
+    import sys
+    try:
+        anything
+    except:
+        sys.exit(1)
