@@ -46,3 +46,16 @@ for x in capitales:
     valor = capitales.get(x)
     print(x," --> ",valor)
 
+
+
+# Copiar un diccionario
+# Hay que tener en cuenta que de la forma normal el diccionario se queda vinculado al original
+x = capitales
+# Si cambias algo del diccionario x, cambiara del de capitales y viceversa
+
+# Para desvincular la mejor occiòn es:
+
+x = capitales.copy()
+
+# Otra opción es:
+x = dict(capitales)

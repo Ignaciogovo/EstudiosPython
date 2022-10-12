@@ -1,0 +1,29 @@
+import shutil
+
+# Comprimir
+     Formato: shutil.make_archive ('Ruta/archivo/comprimido', 'Sufijo del archivo de archivo', 'Ruta/archivo/Sin/Comprimir')
+     Valor de retorno: la ruta final del archivo
+
+     Ejemplo:
+        Sin incluir path:
+            archivo_zip = shutil.make_archive("viaje", "zip", "carpeta-fotos")
+            print("Creado el archivo:", archivo_zip)
+
+        Incluyendo path en la compresion: 
+            archivo_zip = shutil.make_archive("viaje", "zip", base_dir ="carpeta-fotos")
+
+
+
+
+
+# Descomprimir, Desempaquetar
+ 
+ Formato: shutil.unpack_archive ('Ruta/archivo/comprimido.zip', 'Ruta/relativa')
+ Valor de retorno: ninguno
+ Nota: Si la carpeta no existe, se creará una nueva carpeta
+
+ Ejemplo:
+    Misma ruta destino:
+        archivo_zip = shutil.unpack_archive('/home/abc/viaje.zip')
+    Ruta destino distinta:
+        archivo_zip = shutil.unpack_archive('/home/abc/fotos-viaje.zip','/home/abc/fotografias')

@@ -1,6 +1,8 @@
 # Para instalarlo:
 pip install virtualenv
 
+Tambien por apt: sudo apt install python3-virtualenv
+
 # Verificar version:
 virtualenv --version
 

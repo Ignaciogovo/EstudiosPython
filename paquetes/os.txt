@@ -5,7 +5,7 @@ import os
 if os.path.isfile("ruta/archivo"):
     print("Si es un archivo")
 else:
-    print("No es un archivo, o no existe)
+    print("No es un archivo, o no existe")
 
 # Comprobar si es un directorio
 if os.path.isdir("ruta/directorio):
@@ -30,7 +30,24 @@ else:
 
 
 
+Listar de manera recursiva:
+import os
+for root, dirs, files in os.walk(".", topdown=False):
+   for name in files:
+      print(os.path.join(root, name))
+   for name in dirs:
+      print(os.path.join(root, name))
+
+
+
+Conocer la ruta en la que nos encontramos:
+directory = os.getcwd()
+
+
 
 
 
 # listdir, scandir..: https://j2logo.com/python/listar-directorio-en-python/
+
+
+# Recursivo: https://www-tutorialspoint-com.translate.goog/python/os_walk.htm?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=sc

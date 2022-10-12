@@ -52,7 +52,7 @@ mensaje1 = mensaje.strip("h") #Devuelve la cadena sin las letras mencionadas del
 #Cortar
 mensajeacortado = mensaje[1:8] # --> ola Mun 
 mensajeacortado = mensaje[:8] # -->  Hola Mun       Coge desde el principio
-
+mensajeacortado = mensaje[:-1]# --> Elimina el ultimo caracter
 
 
 #Convertir una cadena en una lista:
