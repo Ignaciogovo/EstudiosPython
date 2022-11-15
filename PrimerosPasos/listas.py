@@ -39,3 +39,11 @@ if 3 not in [1,2,4,5]: # Devuelve 0 o 1 dependiendo si esta o no
 lista1 = ["variable1",2,5,1,"variable3"]
 lista2 = ["variable78",2,2,3,"variable8"]
 lista3 = lista1 + lista2
+
+# Convertir valores de un dicciconario en una lista:
+diccionario = {
+    "Juan" : 938477566,
+    "Jack" : 938377264,
+    "Jill" : 947662781
+}
+lista_dicc=list(diccionario.values())

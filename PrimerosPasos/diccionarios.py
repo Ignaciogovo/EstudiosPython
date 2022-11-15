@@ -53,7 +53,7 @@ for x in capitales:
 x = capitales
 # Si cambias algo del diccionario x, cambiara del de capitales y viceversa
 
-# Para desvincular la mejor occiòn es:
+# Para desvincular la mejor occión es:
 
 x = capitales.copy()
 
