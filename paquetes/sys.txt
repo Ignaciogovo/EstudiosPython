@@ -18,3 +18,12 @@
         anything
     except:
         sys.exit(1)
+
+
+
+
+
+Acceder a un archivo de otro directorio:
+import sys
+# in the sys.path list
+sys.path.append('.\\')     
