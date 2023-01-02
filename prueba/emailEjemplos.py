@@ -328,8 +328,5 @@ data = [
 	},
 	{
 		'email': "lectus"
-	},
-		{
-		'email': "enim@yahoo.or_g"
 	}
 ]

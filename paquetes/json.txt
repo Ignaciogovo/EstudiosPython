@@ -1,0 +1,19 @@
+import json
+
+
+json.dumps --> Sirve para convertir de formato python a json
+json.loads --> Sirve para convertir de formato json a formato python
+
+saber el tipo de dato que es una variable ---> type(variable)
+
+
+convertir una lista en json y viseversa:
+json_lista = json.dumps(lista)
+
+
+
+
+Leer un archivo json:
+
+with open ('archivo.json', 'r') as archivo:
+    datos = json.loads(archivo)

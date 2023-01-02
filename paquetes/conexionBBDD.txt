@@ -102,3 +102,26 @@ def get_hours():
         return result
     else:
         return False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conezión sql_server
+pip install pyodbc
+import pyodbc
+
+# variable servidor:
+server = 'Nombre_servidor"
+
+# llevamos a cabo la conexión con el servidor:
+conexion = pyodbc.connect(driver='{SQL server})
