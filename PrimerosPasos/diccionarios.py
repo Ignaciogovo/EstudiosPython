@@ -21,6 +21,8 @@ librotelefonico = {
 librotelefonico1["mike"] = 000000000
 # modificar
 librotelefonico1["mike"] = 986652781
+# Combinar diccionarios:
+librotelefonico1.update(librotelefonico)
 # Borrar 
 del librotelefonico1["Jill"]
 print(librotelefonico1)

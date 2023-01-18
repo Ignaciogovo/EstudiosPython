@@ -1,18 +1,12 @@
 import requests
+import datos as dt
+url = "https://api-football-v1.p.rapidapi.com/v3/players"
+querystring = {"league":"140","season":"2022"}
 
-url = "https://api-football-v1.p.rapidapi.com/v3/teams"
-
-querystring = {"league":"140","season":"2010"}
-
-headers = {
-	"X-RapidAPI-Key": "key",
-	"X-RapidAPI-Host": "api-football-v1.p.rapidapi.com"
-}
-
-response = requests.request("GET", url, headers=headers, params=querystring)
+response = dt.extraer(url,querystring)
 
 print(response.text)
 
-f=open("La_Liga.json","w")
+f=open("EstadisticasJugadores.json","w")
 f.write(response.text)
 f.close()

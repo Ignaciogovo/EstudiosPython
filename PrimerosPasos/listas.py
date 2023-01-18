@@ -47,3 +47,23 @@ diccionario = {
     "Jill" : 947662781
 }
 lista_dicc=list(diccionario.values())
+
+# Eliminar duplicados:
+data = [1,3,2,4,7,3,2,2,1,4]
+result = []
+for item in data:
+    if item not in result:
+        result.append(item)
+        
+result
+
+
+
+
+# Diferencias entre dos listas:
+    # total = []
+    # for lista in (diferencias, dictioanry2):
+    #     for item in lista:
+    #         if item not in total and not (item  in dictioanry2 and item  in diferencias):
+    #             total.append(item)
+    # print(total)
