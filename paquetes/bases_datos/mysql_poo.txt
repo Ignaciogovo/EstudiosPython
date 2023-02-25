@@ -1,0 +1,60 @@
+import pymysql
+
+# Conexión con la base de datos
+class DataBase:
+    def __init__(self):
+        self.conecction = pymysql.connect(
+            host= ip,
+            user= user,
+            password = password,
+            db = nombre_db
+        )
+    self.cursor = self.conecction.cursor()
+    print("Conexión establecida exitosamente")
+
+
+    # Realizar consultas:
+    def select_user(self,id):
+        sql = 'Select id, username, email from users where id = {id}'.format(id)
+
+        try:
+            self.cursor.execute(sql)
+            user=self.cursor.fetchone()
+
+            print("Id:" user[0])
+            print("username:" user[1])
+            print("email:" user[2])
+        except Exception as e:
+            # código que se ejecutará en caso de que ocurra una excepción
+            print("Ocurrió una excepción:", e)
+
+
+
+    def update_user(self,id,username):
+        sql= 'update users set username = "{}" where id = {}'.format(username,id)
+
+        try:
+            self.cursor.execute(sql)
+            self.connection.commit()
+        except Exception as e:
+            # código que se ejecutará en caso de que ocurra una excepción
+            print("Ocurrió una excepción:", e)
+
+
+    def close(self):
+        self.conecction.close()
+
+
+
+### Llamamos a la base de datos
+database=DataBase()
+
+# Consultamos
+
+database.select_user(2)
+
+# modificamos el dato:
+database.update_user(1,'nombre2')
+
+# Cerramos la conexion:
+database.close()

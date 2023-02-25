@@ -32,6 +32,10 @@ uno = 1
 dos = 2
 tres = uno + dos
 
+# redondear:
+round(1.4)
+# Cantidad de dígitos despues del punto:
+round(1.539, 2)
 hola = "hola"
 mundo = "mundo"
 holamundo = "hola" + " " + mundo

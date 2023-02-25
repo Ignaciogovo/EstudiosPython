@@ -1,0 +1,5 @@
+proyecto de prueba de la página: https://datamanagement.es/2019/10/13/proceso-etl-con-python-desde-cero-y-paso-a-paso/
+
+    Descargar el rar
+    Descomprimir el contenido en una carpeta
+    Parsear los ficheros XML e insertar los datos en una base de datos

@@ -12,7 +12,7 @@
     print("Number of elements excluding the name of the program:", (len(sys.argv)-1))
 
 
-# TERMINAL PROGRAMA:
+# TERMINAR PROGRAMA:
     import sys
     try:
         anything
