@@ -61,3 +61,12 @@ x = capitales.copy()
 
 # Otra opción es:
 x = dict(capitales)
+
+
+# Combinar 2 Diccionarios
+persona1 = {'nombre': 'Juan', 'edad': 30, 'ciudad': 'Madrid'}
+persona2 = {'nombre': 'María', 'edad': 25, 'ciudad': 'Barcelona'}
+personas = list(zip(persona1.items(), persona2.items()))
+
+print(personas)
+# Resultado: [(('nombre', 'Juan'), ('nombre', 'María')), (('edad', 30), ('edad', 25)), (('ciudad', 'Madrid'), ('ciudad', 'Barcelona'))]

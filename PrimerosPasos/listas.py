@@ -57,7 +57,26 @@ for item in data:
         
 result
 
+# Combinar 3 listas
+nombres = ['Juan', 'María', 'Pedro']
+edades = [30, 25, 40]
+ciudades = ['Madrid', 'Barcelona', 'Valencia']
+personas = list(zip(nombres, edades, ciudades))
 
+print(personas)
+# Resultado: [('Juan', 30, 'Madrid'), ('María', 25, 'Barcelona'), ('Pedro', 40, 'Valencia')]
+
+
+
+# Desempaquetar una lista de tuplas:
+personas = [('Juan', 30), ('María', 25), ('Pedro', 40)]
+nombres, edades = zip(*personas)
+
+print(nombres)
+# Resultado: ('Juan', 'María', 'Pedro')
+
+print(edades)
+# Resultado: (30, 25, 40)
 
 
 # Diferencias entre dos listas:
