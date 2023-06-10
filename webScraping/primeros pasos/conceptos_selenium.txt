@@ -1,0 +1,5 @@
+# Pasar de selenium a beautiful soup:
+    # Obtenemos el archivo html
+        page_source = driver.page_source
+    # Lo pasamos al formato de BeautifulSoup
+        soup = BeautifulSoup(page_source, 'html.parser')
