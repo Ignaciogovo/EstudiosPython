@@ -69,6 +69,7 @@ patterns = {
     ,r'ho{1}la' # Indica el número exacto de repeticiones que tiene la letra o
     ,r'ho{2,6}la' # Número de repeticiones en un rango
     ,r'[^(hola)]' # Excluye el grupo 
+    ,r'(\d+)' #Significa cualquier digito del 0 al 9 y el + significa uno o más veces
 }
 print("A")
 print(re.findall(pattern,my_string))
