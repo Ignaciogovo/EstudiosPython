@@ -47,6 +47,30 @@ directory = os.getcwd()
 
 
 
+Variables de entorno:
+
+
+import os
+from dotenv import load_dotenv
+# Obtiene la ruta absoluta del directorio actual
+dir_path = os.path.dirname(os.path.abspath(__file__))
+
+# Concatena el nombre del archivo .env al final de la ruta
+env_path = os.path.join(dir_path, '.env')
+
+# Carga las variables de entorno desde el archivo .env
+load_dotenv(env_path)
+
+# Carga las variables de entorno desde el archivo .env
+# Obtén la contraseña desde la variable de entorno
+password = os.getenv('PASSWORD_DB')
+ip = os.getenv('IP_DB')
+usuario = os.getenv('USER_DB')
+
+
+
+
+
 # listdir, scandir..: https://j2logo.com/python/listar-directorio-en-python/
 
 

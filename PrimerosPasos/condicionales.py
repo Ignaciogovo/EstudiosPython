@@ -46,3 +46,19 @@ except:
     print("Da error")
     # Si queremos salir del programa
     sys.exit(1)
+
+
+
+# isinstance!
+x = 5
+resultado = isinstance(x, int)
+print(resultado)  # Esto imprimirá True, ya que x es un entero (int).
+
+# Definimos una variable
+valor = 42
+
+# Comprobamos si la variable es un entero
+if isinstance(valor, int):
+    print("El valor es un entero.")
+else:
+    print("El valor no es un entero.")

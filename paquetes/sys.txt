@@ -26,4 +26,22 @@
 Acceder a un archivo de otro directorio:
 import sys
 # in the sys.path list
-sys.path.append('.\\')     
+sys.path.append('.\\') 
+
+
+
+Otro método:
+import sys
+import os
+
+# Obtén la ruta absoluta al directorio que contiene 'modulo.py'
+ruta_archivos = os.path.abspath('../archivos')
+
+# Agrega la ruta al sys.path
+sys.path.append(ruta_archivos)
+
+# Ahora puedes importar 'modulo.py' como un módulo
+import modulo
+
+# Luego puedes usar las funciones y variables de 'modulo.py'
+resultado = modulo.funcion_de_modulo()

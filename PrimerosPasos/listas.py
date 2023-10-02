@@ -86,3 +86,22 @@ print(edades)
     #         if item not in total and not (item  in dictioanry2 and item  in diferencias):
     #             total.append(item)
     # print(total)
+
+
+
+
+# Metodos de desordenar una lista
+import random
+
+my_list = [1, 2, 3, 4, 5]
+
+random.shuffle(my_list)
+print(my_list)
+
+
+
+# Sacar el indice de una lista
+my_list = ['a', 'b', 'c', 'd']
+
+for i in range(len(my_list)):
+    value = my_list[i]
