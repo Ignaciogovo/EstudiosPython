@@ -48,8 +48,6 @@ directory = os.getcwd()
 
 
 Variables de entorno:
-
-
 import os
 from dotenv import load_dotenv
 # Obtiene la ruta absoluta del directorio actual
