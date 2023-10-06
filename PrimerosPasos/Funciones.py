@@ -56,3 +56,28 @@ def suma(**kwargs):
         s+=value
     return(s)
 print(suma(a=3, b=10, c=3))
+
+
+
+
+
+# Realización de un menú en python de los procedimientos:
+
+
+import inspect  # --> Con este modulo puedes ver los argumentos que necesita una un procedimiento.
+procedimientos=[funcion,funcionvariables,funcionvariables2]
+for i, procedimiento in enumerate(procedimientos):
+    print(str(i+1)+": "+procedimiento.__name__)         ##### __name___ es para saber el nombre del procedimiento guardado en la varriable
+    firma=inspect.signature(procedimiento)
+    parametros=firma.parameters
+    print(parametros)
+    if len(parametros)==0:
+        # Ejecutamos el procedimiento
+        procedimiento
+    else:
+        argumentos=[]
+        for parametro in parametros.values():
+            print(parametro)
+            argumento=input("Ingresa el valor del parametro: "+str(parametro))
+            argumentos.append()
+        procedimiento(*argumentos)
