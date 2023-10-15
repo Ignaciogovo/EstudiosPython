@@ -69,3 +69,9 @@ Medir el tiempo de jecucuión de nuestros propgramas:
 inicio = time.time()
 fin = time.time()
 print(fin-inicio)
+
+
+
+from datetime import timedelta
+--- restar dos días al dia de ayer
+dia = hoy - timedelta(days=2)

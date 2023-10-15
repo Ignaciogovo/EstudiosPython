@@ -70,3 +70,20 @@ personas = list(zip(persona1.items(), persona2.items()))
 
 print(personas)
 # Resultado: [(('nombre', 'Juan'), ('nombre', 'María')), (('edad', 30), ('edad', 25)), (('ciudad', 'Madrid'), ('ciudad', 'Barcelona'))]
+
+
+
+
+# Añadir un diccionario a un archivo json:
+import json
+
+# Un ejemplo de diccionario
+mi_diccionario = {
+    "nombre": "Ejemplo",
+    "edad": 30,
+    "ciudad": "Ejemploville"
+}
+
+# Escribir el diccionario en un archivo JSON
+with open("mi_archivo.json", "w") as archivo_json:
+    json.dump(mi_diccionario, archivo_json)

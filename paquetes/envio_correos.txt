@@ -1,0 +1,210 @@
+import smtplib
+import os
+from dotenv import load_dotenv
+from email.mime.mutipart import MIMEMultipart
+from email.mine.text import MIMEText
+
+
+#https://loopgk.com/2021/03/05/enviando-emails-con-python-guia-completa/ --> Enlace origen
+
+
+load_dotenv() # Cargamos las variables de entorno:
+
+
+
+# La unica forma que me ha funcionado el envio
+
+
+class CorreoWritter:
+    def __init__(self):
+        self.remitente=os.getenv('EMISOR_CORREO')
+        self.password=os.getenv('PASS_CORREO')
+        self.receptor = os.getenv('RECEPTOR_CORREO')
+    def iniciar_sesion(self):
+        email_smtp = "smtp.gmail.com" 
+        # Set smtp server and port 
+        self.server = smtplib.SMTP(email_smtp, '587') 
+        # Identify this client to the SMTP server 
+        self.server.ehlo() 
+        # Secure the SMTP connection 
+        self.server.starttls() # Permite cifrado de texto plano sin necesidad de utilizar un puerto distinto
+        # Nos logueamos
+        self.server.login(self.remitente,self.password)
+    
+    def enviar_correo(self,asunto,texto):
+        #Generar mensaje
+        mensaje= EmailMessage()
+        mensaje['From'] = self.remitente
+        mensaje['To'] = self.receptor
+        mensaje['Subject']=asunto
+        mensaje.set_content(texto)
+        #envio
+        self.server.sendmail(self.remitente,self.receptor,mensaje.as_string())
+
+    def cerrar_conexion(self):
+        self.server.quit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+remitente= os.getenv('user')
+contraseña = os.getenv('pass')
+
+destinatario= 'test.prueba@gmail.com'
+asunto='Test'
+msg = MIMEMultipart()
+msg['Subject]=asunto
+msg['from']=remitente
+msg['To']= festinatario
+
+
+# recoger archivo html
+with open('email.html','r') as archivo:   # https://beefree.io para crear plantillas html de correo electronico
+    html = archivo.read()
+
+# Adjuntar contendido html
+msg.attach(MIMEText(html,'html'))
+
+# representa una conexión con un servidor de correo saliente (SMTP server)
+
+server = smtplib.SMTP('smtp.gmail.com',587)
+
+# Conexión segura
+
+server.starttls()
+server.login(remitente,contraseña)
+
+# Enviar correo electrónico
+server.sendmail( remitente,
+                destinatario,
+                msg.as_string())
+
+# cerrar conexion servidor:
+server.quit()
+
+
+
+
+
+
+
+
+Envio sin html (Por chatgpt):
+
+
+
+destinatario = 'destinatario@example.com'
+asunto = 'Asunto del correo'
+cuerpo = 'Cuerpo del correo'
+
+mensaje = MIMEMultipart()
+mensaje['From'] = remitente
+mensaje['To'] = destinatario
+mensaje['Subject'] = asunto
+
+mensaje.attach(MIMEText(cuerpo, 'plain'))
+
+servidor_smtp = 'smtp.gmail.com'
+puerto = 587  # Puerto seguro TLS
+
+# Conectar al servidor SMTP
+server = smtplib.SMTP(servidor_smtp, puerto)
+server.starttls()
+
+# Iniciar sesión con las credenciales del remitente
+server.login(remitente, contraseña)
+
+# Enviar el correo
+server.sendmail(remitente, destinatario, mensaje.as_string())
+
+# Cerrar la conexión
+server.quit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Por clase:
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.application import MIMEApplication
+from getpass import getpass
+
+class CorreoElectronico:
+    def __init__(self, remitente, servidor_smtp, puerto):
+        self.remitente = remitente
+        self.servidor_smtp = servidor_smtp
+        self.puerto = puerto
+
+    def conectar_smtp(self):
+        self.server = smtplib.SMTP(self.servidor_smtp, self.puerto)
+        self.server.starttls()
+
+    def iniciar_sesion(self, contrasena=None):
+        if contrasena is None:
+            contrasena = getpass(f"Contraseña para {self.remitente}: ")
+        self.server.login(self.remitente, contrasena)
+
+    def crear_mensaje(self, destinatario, asunto, cuerpo, adjunto=None):
+        mensaje = MIMEMultipart()
+        mensaje['From'] = self.remitente
+        mensaje['To'] = destinatario
+        mensaje['Subject'] = asunto
+
+        mensaje.attach(MIMEText(cuerpo, 'plain'))
+
+        if adjunto:
+            with open(adjunto, 'rb') as archivo:
+                archivo_adjunto = MIMEApplication(archivo.read(), Name=adjunto)
+                archivo_adjunto['Content-Disposition'] = f'attachment; filename="{adjunto}"'
+                mensaje.attach(archivo_adjunto)
+
+        self.mensaje = mensaje
+
+    def enviar_correo(self):
+        self.server.sendmail(self.remitente, self.mensaje['To'], self.mensaje.as_string())
+
+    def cerrar_conexion(self):
+        self.server.quit()

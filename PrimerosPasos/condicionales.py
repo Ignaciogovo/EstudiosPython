@@ -62,3 +62,11 @@ if isinstance(valor, int):
     print("El valor es un entero.")
 else:
     print("El valor no es un entero.")
+
+
+
+
+
+# IF EN LA MISMA LINEA:
+resultado = "Mayor de edad" if edad >= 18 else "Menor de edad"
+print(resultado)
