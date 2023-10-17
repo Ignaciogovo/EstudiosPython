@@ -70,3 +70,18 @@ else:
 # IF EN LA MISMA LINEA:
 resultado = "Mayor de edad" if edad >= 18 else "Menor de edad"
 print(resultado)
+
+
+
+
+# USO DEL ANY
+
+numeros = [5, 8, 12, 3]
+resultado = any(numero > 10 for numero in numeros)
+
+if resultado:
+    print("Al menos un número es mayor que 10.")
+else:
+    print("Ningún número es mayor que 10.")
+
+# Devuelve True si al menos uno de los elementos satisface la condición; de lo contrario, devuelve False.
