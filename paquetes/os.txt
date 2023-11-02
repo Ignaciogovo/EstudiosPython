@@ -69,6 +69,18 @@ usuario = os.getenv('USER_DB')
 
 
 
+
+# Ruta absoluta del archivo
+archivo_abs = "/ruta/absoluta/del/archivo.txt"
+
+# Obtener la ruta relativa del archivo en relación con el directorio actual
+ruta_rel = os.path.relpath(archivo_abs, os.getcwd())
+
+print("Ruta relativa del archivo:", ruta_rel)
+
+
+
+
 # listdir, scandir..: https://j2logo.com/python/listar-directorio-en-python/
 
 
