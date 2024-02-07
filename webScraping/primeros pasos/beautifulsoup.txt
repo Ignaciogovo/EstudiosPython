@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+
+#Búsqueda por por clase:
+soup=soup.find('div',class_='Nombre clase')
+
+
+#Obtener una clase
+soup=soup.find('span').get('class')
+
+#Obtener una clase que la clase contenga la palabra: coche
+soup=soup.find("span",class_= lambda x: x and 'coche' in x )
+
+
+
+
+
+
+USER-AGENT EN beautiful-soup
+
+----> El agente predeterminado es bloqueado en muchas ocasiones para evitar bots por lo que si sucede, se puede cambiar
+
+
+******Ver el agente predeterminado:********
+import requests
+url = 'https://google.com'
+response = requests.get(url)
+print(response.request.headers["User-Agent"])
+
+
+
+
+**********Cambiar el agente para evitar bloqueos*******
+
+import requests
+ 
+url = 'https://google.com'
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+ 
+response = requests.get(url, headers=headers)
+print(response.request.headers["User-Agent"])
+
+
+
