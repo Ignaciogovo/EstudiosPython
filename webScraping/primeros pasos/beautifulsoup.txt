@@ -47,3 +47,22 @@ print(response.request.headers["User-Agent"])
 
 
 
+
+
+
+
+
+###### Obtener textos:
+.get_text(strip=True, separator=' ')
+
+    strip=True: Este parámetro indica si se deben eliminar los espacios en blanco alrededor del texto. Cuando está configurado en True, elimina los espacios en blanco iniciales y finales del texto. Si no deseas eliminar los espacios en blanco, puedes establecerlo en False.
+
+    separator=' ': Este parámetro especifica el carácter que se utilizará como separador entre los textos de los diferentes elementos anidados. Por defecto, es un espacio en blanco. Esto significa que si un elemento HTML tiene múltiples textos hijos, se concatenarán utilizando este carácter como separador.
+
+
+
+
+Obtener el div padre de un div en concreto:
+
+div_hijo = soup.find('div', id='hijo')
+div_padre = div_hijo.parent

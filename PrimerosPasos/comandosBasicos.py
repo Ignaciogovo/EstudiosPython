@@ -32,6 +32,10 @@ uno = 1
 dos = 2
 tres = uno + dos
 
+# Sumar 1 sobre un número
+bucle=0
+bucle+=1
+
 # redondear:
 round(1.4)
 # Cantidad de dígitos despues del punto:
