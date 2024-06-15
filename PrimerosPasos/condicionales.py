@@ -47,6 +47,12 @@ except:
     # Si queremos salir del programa
     sys.exit(1)
 
+    # Indicando el error:
+
+try:
+    print("")
+except Exception as error:
+    print(error)
 
 
 # isinstance!

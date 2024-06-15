@@ -1,0 +1,30 @@
+entorno virtual:
+    python3 -m venv .venv
+    source .venv/bin/activate
+
+instalar paquete reflex:
+    pip install reflex
+
+
+
+Crear proyecto:
+    mkdir primer_app
+    cd primer_app
+
+Instalar reflex:
+    reflex init
+
+
+Arrancar reflex:
+    reflex run
+    
+    - Arrancar con un puerto en especifico:
+        reflex run --frontend-port 3001
+
+
+
+
+
+
+--- Componentes:
+    Tecnología que se mueve a partir de Componentes básicos

@@ -1,0 +1,22 @@
+#Importar clase de youtube:
+
+from pytube import youtube
+
+# añadir en una variable la url del video
+yt= youtube('url_video)
+
+# obtener el título:
+yt.title
+
+
+#obtener el autor:
+yt.author
+
+#obtener las views:
+yt.views
+
+
+
+
+# Info:
+https://www.tutorialspoint.com/download-video-in-mp3-format-using-pytube

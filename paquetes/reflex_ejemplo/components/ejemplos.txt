@@ -1,0 +1,10 @@
+rx.text("Ejemplo")
+
+
+#botones
+rx.button("link button")
+
+
+
+
+Componentes de formulario:
