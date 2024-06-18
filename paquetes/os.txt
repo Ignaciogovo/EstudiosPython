@@ -85,3 +85,24 @@ print("Ruta relativa del archivo:", ruta_rel)
 
 
 # Recursivo: https://www-tutorialspoint-com.translate.goog/python/os_walk.htm?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=sc
+
+
+
+
+
+
+
+
+
+######BORRAR ARCHIVO
+
+# Ruta del archivo que quieres borrar
+archivo = 'ruta/al/archivo.txt'
+
+# Verifica si el archivo existe
+if os.path.exists(archivo):
+    # Borra el archivo
+    os.remove(archivo)
+    print(f'El archivo {archivo} ha sido borrado.')
+else:
+    print(f'El archivo {archivo} no existe.')
