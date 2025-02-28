@@ -1,0 +1,9 @@
+Proyecto:
+
+/mi_proyecto
+│
+├── /static
+│   └── styles.css
+├── /templates
+│   └── index.html
+└── app.py

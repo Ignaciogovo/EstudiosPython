@@ -49,6 +49,23 @@ for x in capitales:
     print(x," --> ",valor)
 
 
+# otra forma:
+# Definir un diccionario
+mi_diccionario = {
+    'nombre': 'Juan',
+    'edad': 28,
+    'ciudad': 'Madrid',
+    'profesión': 'Ingeniero'
+}
+
+# Iterar sobre las claves y los valores
+for clave, valor in mi_diccionario.items():
+    print(f'Clave: {clave}, Valor: {valor}')
+
+    
+
+
+
 
 # Copiar un diccionario
 # Hay que tener en cuenta que de la forma normal el diccionario se queda vinculado al original
