@@ -104,3 +104,14 @@ mi_diccionario = {
 # Escribir el diccionario en un archivo JSON
 with open("mi_archivo.json", "w") as archivo_json:
     json.dump(mi_diccionario, archivo_json)
+
+
+
+
+## Darle la vuelta al diccionario
+diccionario = {'a': 1, 'b   ': 2, 'c': 3}
+invertido = {k: v for k, v in reversed(diccionario.items())}
+for k,v in reversed(diccionario.items()):
+    print(k)
+    print(v)
+print(invertido)  # Salida: {'c': 3, 'b': 2, 'a': 1}

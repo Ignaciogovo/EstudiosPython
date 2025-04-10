@@ -47,3 +47,17 @@ for x in range(10): # Range crea una lista de x numeros seguidos.
 x = range(3, 6)
 for n in x:
   print(n)
+
+
+
+
+
+
+# Bucles en una sola linea: 
+[print(i) for i in range(5)]  # Imprimir números del 0 al 4 (devuelve lista de None)
+
+squares = [i**2 for i in range(5)]  # Lista de cuadrados del 0 al 4
+
+total = sum(i for i in range(11) if i % 2 == 0)  # Suma de pares del 0 al 10
+
+print(", ".join(str(i) for i in range(5)))  # Imprimir números 0 a 4 separados por coma

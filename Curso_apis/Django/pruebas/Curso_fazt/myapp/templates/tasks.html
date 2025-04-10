@@ -1,0 +1,28 @@
+{% extends 'menu.html' %}
+{% block content %}
+
+<h1>Tareas</h1>
+
+
+{% for task in tasks %}
+
+<article>
+
+    <h2>{{task.title}}</h2>
+
+    {% if task.done == False %}
+
+    <p>Tarea pendiente</p>
+    {% else %}
+
+    <p>Tarea finalizada</p>
+
+    {% endif %}
+
+    <button> hecho </button>
+
+</article>
+
+{% endfor %}
+
+{% endblock %}

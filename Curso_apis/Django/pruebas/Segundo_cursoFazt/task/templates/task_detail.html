@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Task</h1>
+
+<article>
+
+    <h2>{{ task.title }}</h2>
+    <p>{{task.description}}</p>
+    <p>{{task.user}}</p>
+
+    <button> hecho </button>
+
+</article>
+
+<form action="" method="post">
+    {% csrf_token %} <!-- TOKEN para validar si el formulario es el correcto-->
+    {{ form.as_p }}
+    
+    <button>
+        update
+    </button>
+    
+</form>
+
+
+{% endblock %}
